@@ -165,7 +165,7 @@ def main(config: Path, no_section_prefix: bool, triples: Path | None, seed: int 
     if not triples.exists():
         raise click.ClickException(f"training triples not found: {triples}")
     system_id = cfg.get("system_id", "s_stali")
-    use_prefix = not no_section_prefix
+    use_prefix = bool(data_cfg.get("use_section_prefix", True)) and not no_section_prefix
     log.info("system_id=%s use_section_prefix=%s triples=%s",
              system_id, use_prefix, triples)
 

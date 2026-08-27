@@ -56,7 +56,9 @@ def main() -> None:
         gold_paras = set(q["gold_paragraph_ids"])
         gold_docs = set(q["gold_doc_ids"])
         top_ids = [r["chunk_id"] for r in q["results"]]
-        top_doc_ids = [chunks_by_id[cid].doc_id for cid in top_ids if cid in chunks_by_id]
+        top_doc_ids = list(dict.fromkeys(
+            chunks_by_id[cid].doc_id for cid in top_ids if cid in chunks_by_id
+        ))
 
         para_r5 = metrics.recall_at_k(top_ids, gold_paras, 5)
         para_r10 = metrics.recall_at_k(top_ids, gold_paras, 10)
@@ -83,6 +85,7 @@ def main() -> None:
         rows.append({
             "qid": q["qid"],
             "question_type": q.get("question_type", ""),
+            "has_retrieval_gold": bool(gold_paras or gold_docs),
             "para_r5": para_r5, "para_r10": para_r10, "para_hit5": para_hit5,
             "doc_r5": doc_r5, "doc_hit5": doc_hit5,
             "pred": pred, "gold": q["answer"],
@@ -93,8 +96,16 @@ def main() -> None:
         if (i + 1) % 50 == 0:
             print(f"[eval] {i+1}/{len(queries)} done", flush=True)
 
+    retrieval_metrics = ("para_r5", "para_r10", "para_hit5", "doc_r5", "doc_hit5")
     summary = {k: float(sum(r[k] for r in rows) / len(rows))
-               for k in ("para_r5", "para_r10", "para_hit5", "doc_r5", "doc_hit5", "em", "f1")}
+               for k in (*retrieval_metrics, "em", "f1")}
+    answerable_rows = [r for r in rows if r["has_retrieval_gold"]]
+    if not answerable_rows:
+        raise RuntimeError("retrieval evaluation has no answerable rows")
+    answerable_summary = {
+        key: float(sum(row[key] for row in answerable_rows) / len(answerable_rows))
+        for key in retrieval_metrics
+    }
     err_counts = {}
     for r in rows:
         err_counts[r["error_class"]] = err_counts.get(r["error_class"], 0) + 1
@@ -104,6 +115,11 @@ def main() -> None:
         "n_queries": len(rows),
         "top_k_reader": args.top_k_reader,
         "summary": summary,
+        "summary_scope": "all queries; empty-gold retrieval metrics score 0",
+        "retrieval_summary_answerable": answerable_summary,
+        "n_answerable_retrieval": len(answerable_rows),
+        "n_empty_gold_retrieval": len(rows) - len(answerable_rows),
+        "n_null_queries": sum(r["question_type"] == "null_query" for r in rows),
         "error_counts": err_counts,
         "rows": rows,
     }

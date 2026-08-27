@@ -64,8 +64,13 @@ def main() -> None:
 
     summary: dict[str, dict[str, float]] = {}
     for s, d in systems_data.items():
-        summary[s] = d["summary"]
+        summary[s] = dict(d["summary"])
         summary[s]["n_rows"] = d["n_queries"]
+    answerable_summary = {
+        s: d["retrieval_summary_answerable"]
+        for s, d in systems_data.items()
+        if "retrieval_summary_answerable" in d
+    }
 
     # Bonferroni: STALI vs each of 3 baselines × 3 primary metrics (para_r5, em, f1)
     cmp_metrics = ["para_r5", "em", "f1"]
@@ -98,6 +103,16 @@ def main() -> None:
         "n_common_qids": len(common_qids),
         "systems_present": list(systems_data.keys()),
         "summary": summary,
+        "summary_scope": "all queries; empty-gold retrieval metrics score 0",
+        "retrieval_summary_answerable": answerable_summary,
+        "retrieval_counts": {
+            s: {
+                "n_answerable": d.get("n_answerable_retrieval"),
+                "n_empty_gold": d.get("n_empty_gold_retrieval"),
+                "n_null_queries": d.get("n_null_queries"),
+            }
+            for s, d in systems_data.items()
+        },
         "comparisons": comparisons,
         "bonferroni_n_tests": n_tests,
         "bonferroni_alpha": alpha_corrected,
@@ -111,7 +126,9 @@ def main() -> None:
         "",
         f"n_common_qids = {len(common_qids)}; bonferroni α = {alpha_corrected:.4f} ({n_tests} tests)",
         "",
-        "## Per-system summary",
+        "## Per-system all-query summary",
+        "",
+        "Empty-gold retrieval rows score 0; answerable-only retrieval metrics are reported below when available.",
         "",
         "| system | para_r@5 | para_r@10 | para_hit@5 | doc_r@5 | EM | F1 |",
         "|---|---|---|---|---|---|---|",
@@ -125,6 +142,22 @@ def main() -> None:
             f"{r['para_hit5']:.4f} | {r['doc_r5']:.4f} | "
             f"{r['em']:.4f} | {r['f1']:.4f} |"
         )
+    if answerable_summary:
+        lines += [
+            "",
+            "## Answerable-only retrieval summary",
+            "",
+            "| system | para_r@5 | para_r@10 | para_hit@5 | doc_r@5 | doc_hit@5 |",
+            "|---|---|---|---|---|---|",
+        ]
+        for s in SYSTEMS:
+            if s not in answerable_summary:
+                continue
+            r = answerable_summary[s]
+            lines.append(
+                f"| {s} | {r['para_r5']:.4f} | {r['para_r10']:.4f} | "
+                f"{r['para_hit5']:.4f} | {r['doc_r5']:.4f} | {r['doc_hit5']:.4f} |"
+            )
     lines += [
         "",
         "## STALI vs baselines (paired bootstrap 10k, Bonferroni)",

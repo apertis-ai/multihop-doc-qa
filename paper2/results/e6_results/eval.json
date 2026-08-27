@@ -2,6 +2,12 @@
   "system_id": "e6_stali",
   "n_queries": 500,
   "top_k_reader": 5,
+  "retrieval_metric_scope": "historical all-query metrics; empty-gold rows score 0",
+  "doc_metric_definition": "historical first-k paragraph hits mapped to documents before deduplication",
+  "doc_metric_correction": "doc_metric_correction.json",
+  "n_answerable_retrieval": 429,
+  "n_empty_gold_retrieval": 71,
+  "n_null_queries": 71,
   "summary": {
     "para_r5": 0.39066666666666666,
     "para_r10": 0.49849999999999994,

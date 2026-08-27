@@ -1,7 +1,6 @@
 """Retrieval + QA metrics for unified harness.
 
-All metric computations in Paper 2 revision MUST route through this module.
-Binding contract: ../preregistration_2026-04-18.md §2, §4.
+All metric computations in the released Paper 2 harness route through this module.
 """
 
 from __future__ import annotations

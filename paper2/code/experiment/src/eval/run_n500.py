@@ -112,11 +112,12 @@ def _maxsim_score(q_embed: torch.Tensor, d_embed: torch.Tensor) -> float:
 @click.option("--dochop-json", type=click.Path(exists=True, path_type=Path), required=True)
 @click.option("--gold-path", type=click.Path(exists=True, path_type=Path),
               default="data/eval/gold_n500.json")
-@click.option("--use-section-prefix/--no-section-prefix", default=False,
-              help="Prepend [SECTION: type] to each section at encode time")
+@click.option("--use-section-prefix/--no-section-prefix", default=None,
+              help="Override training.data.use_section_prefix from --config")
 @click.option("--output", type=click.Path(path_type=Path), required=True)
 @click.option("--system-id", default=None)
-@click.option("--top-k", type=int, default=10)
+@click.option("--top-k", type=int, default=None,
+              help="Override eval.top_k from --config (must be at least 10)")
 @click.option("--max-query-length", type=click.IntRange(min=1), default=None,
               help="Override model.max_query_length from --config")
 @click.option("--max-doc-length", type=click.IntRange(min=1), default=None,
@@ -127,10 +128,10 @@ def main(
     adapter: Path | None,
     dochop_json: Path,
     gold_path: Path,
-    use_section_prefix: bool,
+    use_section_prefix: bool | None,
     output: Path,
     system_id: str | None,
-    top_k: int,
+    top_k: int | None,
     max_query_length: int | None,
     max_doc_length: int | None,
 ) -> int:
@@ -146,14 +147,23 @@ def main(
     if not model:
         raise click.ClickException("provide --model or a --config containing model.base")
     system_id = system_id or cfg.get("system_id", "unknown")
+    data_cfg = (cfg.get("training") or {}).get("data") or {}
+    eval_cfg = cfg.get("eval") or {}
+    if use_section_prefix is None:
+        use_section_prefix = bool(data_cfg.get("use_section_prefix", False))
+    if top_k is None:
+        top_k = eval_cfg.get("top_k", 10)
+    if isinstance(top_k, bool) or not isinstance(top_k, int) or top_k < 10:
+        raise click.ClickException("--top-k/config eval.top_k must be an integer >= 10")
     max_query_length = max_query_length or model_cfg.get("max_query_length")
     max_doc_length = max_doc_length or model_cfg.get("max_doc_length")
     for name, value in (("max_query_length", max_query_length), ("max_doc_length", max_doc_length)):
         if value is not None and (isinstance(value, bool) or not isinstance(value, int) or value < 1):
             raise click.ClickException(f"model.{name} must be a positive integer")
 
-    log.info("system=%s model=%s adapter=%s prefix=%s query_length=%s document_length=%s",
-             system_id, model, adapter, use_section_prefix, max_query_length, max_doc_length)
+    log.info("system=%s model=%s adapter=%s prefix=%s top_k=%s query_length=%s document_length=%s",
+             system_id, model, adapter, use_section_prefix, top_k,
+             max_query_length, max_doc_length)
 
     log.info("loading gold labels")
     gold = json.loads(Path(gold_path).read_text())
@@ -229,9 +239,10 @@ def main(
         scores = torch.tensor([
             _maxsim_score(q0, d) for d in doc_embeds
         ])
-        top_idx = torch.argsort(scores, descending=True)[:top_k].tolist()
+        ranked_idx = torch.argsort(scores, descending=True).tolist()
+        top_idx = ranked_idx[:top_k]
         top_sids = [sections[i]["sid"] for i in top_idx]
-        top_pmcs = [sections[i]["pmc_id"] for i in top_idx]
+        top_pmcs = list(dict.fromkeys(sections[i]["pmc_id"] for i in ranked_idx))[:top_k]
 
         gold_sids = eval_qid_to_gold.get(qid, set())
         gold_docs = eval_qid_to_gold_docs.get(qid, set())
@@ -272,6 +283,7 @@ def main(
         "model": model,
         "adapter": str(adapter) if adapter else None,
         "use_section_prefix": use_section_prefix,
+        "top_k": top_k,
         "query_length": m.query_length,
         "document_length": m.document_length,
         "n_queries": n,

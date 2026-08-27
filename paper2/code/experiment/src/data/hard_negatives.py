@@ -6,9 +6,9 @@ paper P, the §5.1 failure-mode population is:
     { s ∈ P : s ∉ gold_sections(q, P) AND jaccard(tokens(q), tokens(s)) ≥ τ }
 
 These sections lie on the exact axis dense retrievers get wrong — high lexical
-overlap with the question but not the evidential content. Training STALI with
-these as hard negatives directly teaches the section-type head to discriminate
-lexical bait from true evidence (H1a).
+overlap with the question but not the evidential content. Training with these
+hard negatives teaches the retriever to discriminate lexical bait from true
+evidence.
 
 The computation reimplements Paper 1's token-Jaccard utility with identical
 tokenisation (lowercased alphanumeric, English stopwords removed).
@@ -110,7 +110,14 @@ class HardNegativeMiner:
             if j >= self.threshold:
                 scored.append((j, sec))
 
-        scored.sort(key=lambda x: -x[0])
+        scored.sort(
+            key=lambda item: (
+                -item[0],
+                item[1].pmc_id,
+                item[1].section_title,
+                item[1].subsection_title or "",
+            )
+        )
         return [
             MinedNegative(
                 query_id=query_id,

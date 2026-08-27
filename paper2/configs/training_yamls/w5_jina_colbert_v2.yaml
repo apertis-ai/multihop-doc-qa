@@ -5,7 +5,6 @@ description: "Zero-shot retrieval using Jina ColBERT v2 (XLM-RoBERTa backbone, c
 model:
   base: jinaai/jina-colbert-v2
   library: pylate
-  head_variant: disabled
   max_query_length: 64
   max_doc_length: 8192
 

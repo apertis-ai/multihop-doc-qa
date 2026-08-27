@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""D32 Phase 1A: HotpotQA contamination control.
+"""D32 HotpotQA contamination control.
 
 Mirror of D32_contamination_check.py but for HotpotQA distractor dev set.
 HotpotQA is a 2018 Wikipedia QA benchmark — expected to be heavily in
@@ -11,7 +11,7 @@ Settings:
   (A) NO-CONTEXT  — just question
   (B) SHUFFLED-CONTEXT — question + 5 random Wikipedia paragraphs from
                          the HotpotQA dev pool (excluding gold)
-Reader: gpt-5.5 (paper-default).  Resumable jsonl.
+Reader: gpt-5.5. Resumable JSONL.
 """
 import json
 import os

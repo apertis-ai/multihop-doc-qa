@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
-"""D32 Phase 1C: deepseek-v4-pro 3rd reader cross-LLM sanity.
+"""D32 deepseek-v4-pro third-reader agreement audit.
 
 Adds deepseek-v4-pro no_context evaluations on:
   (1) The same MultiHop-RAG n=200 sample from D32_contamination_check.py
   (2) The new HotpotQA n=200 sample from D32_contamination_hotpotqa.py
       (must run after that script populates contamination_hotpotqa_results.jsonl)
 
-Combined with gpt-5.5 (#6) and claude-opus-4-7 (#5), this gives a 3-LLM
-panel for cross-judge agreement, raising the cross-LLM sanity from
-n=2 (78.7% agreement) to n=3.
+Combined with gpt-5.5 and claude-opus-4-7, this gives a three-reader
+panel for cross-reader agreement.
 
 Resumable jsonl. Output ./second_reader_deepseek_results.jsonl.
 """

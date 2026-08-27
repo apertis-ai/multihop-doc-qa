@@ -5,7 +5,6 @@ description: "E6 in-dataset LoRA training on MultiHop-RAG. Mirrors the A2 random
 model:
   base: lightonai/GTE-ModernColBERT-v1
   library: pylate
-  head_variant: disabled
   max_query_length: 64
   max_doc_length: 512   # paragraph unit, not section
 
@@ -14,9 +13,6 @@ lora:
   r: 16
   alpha: 32
   dropout: 0.1
-  target_modules: [Wqkv, Wo]
-  bias: none
-  task_type: FEATURE_EXTRACTION
 
 training:
   data:

@@ -1,11 +1,10 @@
 system_id: a2_random_only_s43
 role: A2_ABLATION_SEED43_VERIFICATION
-description: "Seed 43 variant of A2 random-only LoRA. Purpose: verify A2 > S2 delta (+0.83pp) is not seed variance before finalizing the counter-intuitive null claim for Paper 2."
+description: "Seed 43 robustness replicate of the A2 random-only LoRA run."
 
 model:
   base: lightonai/GTE-ModernColBERT-v1
   library: pylate
-  head_variant: disabled
   max_query_length: 64
   max_doc_length: 8192
 
@@ -14,13 +13,11 @@ lora:
   r: 16
   alpha: 32
   dropout: 0.1
-  target_modules: [Wqkv, Wo]
-  bias: none
-  task_type: FEATURE_EXTRACTION
 
 training:
   data:
     triples_path: data/train/dochop_qa_triples_t02.jsonl
+    use_section_prefix: false
     hard_neg_threshold: 0.02
     hard_neg_top_k: 0
     random_neg_k: 3

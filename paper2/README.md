@@ -51,7 +51,7 @@ The generated file must match the digest above byte-for-byte.
 ## Result layout
 
 - `results/e1_nv_embed_v2_results/`: three 500-query zero-shot retrieval outputs.
-- `results/e6_results/`: STALI MultiHop-RAG retrieval, reader evaluation, and aggregate statistics.
+- `results/e6_results/`: STALI MultiHop-RAG retrieval, reader evaluation, aggregate statistics, and the per-query document-metric correction.
 - `results/hipporag_results/`: paired DocHop-QA comparison data and fixed query-ID maps; the generated MultiHop-RAG corpus is intentionally omitted.
 - `results/e4_hipporag2_calib_summary/`: triple-extraction calibration summaries.
 - `audits/`: the five scripts, four per-query JSONLs, final combined summary, and compact inputs named in the paper appendix.
@@ -90,12 +90,16 @@ The historical triples builder also used Python's process-salted `hash()` when s
 
 The historical DocHop-QA evaluator represented an absent subsection as `/N/A`, while the gold builder omitted that suffix. This understated section recall for affected queries. The original outputs remain unchanged; corrected top-5 outputs for the 25 runs that retained `top5_sids` are in `dochop_eval_corrected/` in the public adapter repository. For example, A2 random-only changes from 0.597333 to 0.607733 section R@5 (20 of 500 queries). Top-10 section metrics cannot be corrected from the retained files because they do not contain top-10 IDs. The metric-only `e1_bge_m3`, `e1_qwen3_emb_4b`, and `e2_rerank_bge_v2m3` files cannot be corrected without rerunning retrieval.
 
+That evaluator also applied document cutoffs to section-ranked PMC IDs before deduplication. The retained top-five section IDs are insufficient to recover the first five unique documents, so historical DocHop-QA document R@5 and hit@5 values remain uncorrected and should not be interpreted as unique-document-at-5 metrics. The released runner now scans the rank order, deduplicates PMC IDs, and only then applies document cutoffs; corrected values require rerunning retrieval.
+
+The historical E6 evaluator took the first five paragraph hits before converting them to document IDs, so repeated paragraphs from one document occupied multiple document ranks. It also averaged retrieval recall across all 500 queries, assigning zero to 71 `null_query` rows with no retrieval gold. [`doc_metric_correction.json`](results/e6_results/doc_metric_correction.json) preserves the legacy values and provides per-query rank-preserving unique-document corrections: STALI document R@5 changes from 0.531167 to 0.598167 over all 500 queries and is 0.697164 over the 429 answerable queries (83 rows change). The three baseline retrieval files were not retained, so their historical document R@5 values cannot be corrected. The released evaluator now deduplicates document IDs before applying `k` and reports both all-query and answerable-only retrieval summaries.
+
 The historical training and evaluation runners also ignored the YAML `max_query_length` and `max_doc_length` fields and truncated section text by characters before PyLate tokenization. Their retained metadata does not establish the claimed context lengths, so the S3 512/1024/2048/4096 outputs are historical records, not a valid context-length ablation. The released runners now pass token limits directly to PyLate and leave token truncation to the model; obtaining corrected context-ablation numbers requires rerunning those systems, and this release does not substitute guessed values.
 
 ## Provenance and scope
 
 The fixed DocHop-QA `n=500` ID list predates Paper 2 and is shared with Paper 1; Paper 2 reused it for every paired comparison. The Paper 2 evaluation package and training triples were generated on 2026-04-15, with E6 results and reader audits added during the May 2026 Paper 2 revision cycle.
 
-The historical code that originally selected the 500 IDs was not preserved. Consequently, this release treats `query_ids_500.json` as the authoritative split and reconstructs its annotations exactly from the public 11,379-record DocHop-QA source. It does not claim to recreate the paper draft's described “571 minus 71” selection procedure.
+The historical code that originally selected the 500 IDs was not preserved. Consequently, this release treats `query_ids_500.json` as the authoritative split and reconstructs its annotations exactly from the public 11,379-record DocHop-QA source. It does not claim to recreate the paper's described “571 minus 71” selection procedure.
 
 Large upstream corpora, checkpoints, private training-service state, API responses, and operational logs are not duplicated in Git. See [NOTICE.md](NOTICE.md) for licensing and attribution.

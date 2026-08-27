@@ -7,8 +7,8 @@ reader memorization, by comparing three reader settings on MultiHop-RAG
   (A) NO-CONTEXT  — just the question, no passages
   (B) SHUFFLED-CONTEXT — question + 5 random passages from the corpus
                          (no overlap with the gold passages)
-  (C) STALI-TOP5  — already-computed values from anonymous_repo_build/
-                    data/e6_results/eval.json (per-query EM/F1)
+  (C) STALI-TOP5  — released results/e6_results/eval.json values
+                    (per-query EM/F1)
 
 Reader: gpt-5.5 via Apertis (env APERTIS_API_KEY, APERTIS_BASE_URL).
 Resumable: appends to ./contamination_results.jsonl, skips qids already done.

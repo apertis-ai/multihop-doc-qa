@@ -5,7 +5,6 @@ description: "Zero-shot retrieval using Reason-ModernColBERT (reasoning-tuned va
 model:
   base: lightonai/Reason-ModernColBERT
   library: pylate
-  head_variant: disabled
   max_query_length: 64
   max_doc_length: 8192
 

@@ -8,7 +8,6 @@ description: |
 model:
   base: lightonai/GTE-ModernColBERT-v1
   library: pylate
-  head_variant: disabled
   max_query_length: 64
   max_doc_length: 8192
 
@@ -17,13 +16,11 @@ lora:
   r: 16
   alpha: 32
   dropout: 0.1
-  target_modules: [Wqkv, Wo]
-  bias: none
-  task_type: FEATURE_EXTRACTION
 
 training:
   data:
     triples_path: data/train/dochop_qa_triples_t02.jsonl
+    use_section_prefix: false
     filter_hard_neg_only: true
     hard_neg_threshold: 0.005
     hard_neg_top_k: 1

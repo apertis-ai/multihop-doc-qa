@@ -1,19 +1,14 @@
 #!/usr/bin/env python3
-"""D32 second-reader sanity for the W6 reader-QA table.
+"""D32 second-reader agreement audit for the W6 reader-QA table.
 
-Defuses Codex's `single-judge LLM` critique by re-running the W6 reader-QA
-under a second frontier reader (claude-opus-4-7) on the SAME 200-query
-MultiHop-RAG sample used by D32_contamination_check.py. We use no_context
-prompting only (cheapest, addresses memorization concern directly):
+Re-runs the W6 reader-QA evaluation with claude-opus-4-7 on the same
+200-query MultiHop-RAG sample used by D32_contamination_check.py, using
+no-context prompting to measure reader memorization:
 
   (A1) gpt-5.5 no_context   — already collected by D32_contamination_check
   (A2) claude-opus-4-7 no_context — collected here
 
-Cross-LLM EM/F1 agreement is the rebuttal evidence:
-  - If A1.em ≈ A2.em → single-judge concern is mostly cosmetic; the
-    measured retrieval gap is robust to reader choice.
-  - If A1.em - A2.em is large → reader-LLM choice matters and W6 numbers
-    should be averaged or reported per-LLM.
+The released summaries report cross-reader EM/F1 agreement.
 
 Resumable: appends to ./second_reader_results.jsonl, skips done qids.
 """
@@ -36,7 +31,7 @@ OUT_DIR = Path(__file__).resolve().parent
 RESULTS = OUT_DIR / "second_reader_results.jsonl"
 SUMMARY = OUT_DIR / "second_reader_summary.json"
 LOG = OUT_DIR / "second_reader_run.log"
-PEER = OUT_DIR / "contamination_results.jsonl"  # gpt-5.5 ground truth
+PEER = OUT_DIR / "contamination_results.jsonl"  # gpt-5.5 reference run
 
 
 def log(msg):

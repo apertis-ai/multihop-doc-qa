@@ -12,7 +12,7 @@ Emits one JSONL row per query:
 Strict no-leak contract:
   - Query IDs in data/eval/query_ids_500.json are EXCLUDED from training.
   - The resulting triples never reference a query used for Paper 2's n=500 eval.
-  - A manifest file records the final train/eval split sizes for Stage 23 CITATION_VERIFY.
+  - A manifest file records the final train/eval split sizes.
 
 Usage (W2):
     python -m src.data.build_triples \
@@ -196,7 +196,7 @@ def main(
         n_written, n_skipped_eval, n_skipped_no_gold, out_path,
     )
 
-    # Manifest for reproducibility / citation_verify stage
+    # Manifest for reproducibility.
     manifest = {
         "n_train_triples": n_written,
         "n_eval_excluded": n_skipped_eval,

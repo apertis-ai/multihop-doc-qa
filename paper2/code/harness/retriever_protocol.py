@@ -2,8 +2,6 @@
 
 Every system (A2 adapter, HippoRAG 2, LAD-RAG, dense bi-encoder baselines)
 implements this Protocol so the reader + metrics pipeline is identical.
-
-Binding contract: ../preregistration_2026-04-18.md §6.
 """
 
 from __future__ import annotations
