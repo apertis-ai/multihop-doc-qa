@@ -1,0 +1,48 @@
+system_id: s1_stali
+role: MAIN_CONTRIBUTION
+description: "STALI — GTE-ModernColBERT-v1 + LoRA + section-type text prefix"
+
+model:
+  base: lightonai/GTE-ModernColBERT-v1
+  library: pylate
+  max_query_length: 64
+  max_doc_length: 8192
+
+lora:
+  enabled: true
+  r: 16
+  alpha: 32
+  dropout: 0.1
+
+training:
+  data:
+    triples_path: data/train/dochop_qa_triples_t02.jsonl
+    use_section_prefix: true
+    hard_neg_threshold: 0.02
+    hard_neg_top_k: 1
+    random_neg_k: 2
+  loss: contrastive_with_hard_negatives
+  optimizer: adamw
+  learning_rate: 3.0e-5
+  warmup_steps: 200
+  num_epochs: 3
+  per_device_batch_size: 8
+  gradient_accumulation_steps: 4
+  seed: 42
+
+eval:
+  primary_split: n500_mixed
+  query_ids: data/eval/query_ids_500.json
+  judge_cache: cache/judges/
+  top_k: 20
+  metrics: [section_recall_at_5, doc_recall_at_5, section_recall_at_10, end_task_judge_score]
+
+hardware:
+  target_gpu: rtx_4090_24gb
+  fallback_gpu: a40_48gb
+  mixed_precision: bf16
+
+output:
+  dir: runs/s1_stali/
+  save_lora_adapter: true
+  push_to_hf_hub: false

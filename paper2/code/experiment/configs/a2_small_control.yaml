@@ -1,0 +1,60 @@
+system_id: a2_small_control
+role: A2_SMALL_RANDOM_SIZE_MATCHED
+description: |
+  Size-matched random-negative control for the pure hard-negative ablation (C1).
+  Trains on the SAME 6,343 triples that have hard-negative coverage, but uses
+  random negatives instead. This isolates the negative SELECTION signal from
+  the training-set SIZE effect.
+
+  Companion experiment: s2_pure_hard_neg.yaml (hard negatives, same 6,343 triples).
+
+  Comparison logic:
+  - A2 (full): random-neg, 10,879 triples → section_r@5 = 0.5973
+  - A2-small (this): random-neg, 6,343 triples → tests size effect
+  - S2-pure: hard-neg, 6,343 triples → clean ablation vs A2-small
+
+  A2-small vs A2: measures how much the extra 4,536 triples (random fallback pool)
+                  contribute to performance.
+  S2-pure vs A2-small: measures whether hard-neg selection signal > random on same pool.
+
+model:
+  base: lightonai/GTE-ModernColBERT-v1
+  library: pylate
+  max_query_length: 64
+  max_doc_length: 8192
+
+lora:
+  enabled: true
+  r: 16
+  alpha: 32
+  dropout: 0.1
+
+training:
+  data:
+    triples_path: data/train/dochop_qa_triples_t02.jsonl
+    use_section_prefix: false
+    filter_hard_neg_only: true       # restrict to same 6,343 triples as S2-pure
+    hard_neg_threshold: 0.02         # cohort threshold in the preserved t02 triples
+    hard_neg_top_k: 0                # ← ZERO hard negatives
+    random_neg_k: 1                  # ← 1 random negative (matched to S2-pure neg count)
+  loss: contrastive
+  optimizer: adamw
+  learning_rate: 3.0e-5
+  warmup_steps: 150
+  num_epochs: 3
+  per_device_batch_size: 8
+  gradient_accumulation_steps: 4
+  seed: 43                           # same seed as S2-pure
+
+eval:
+  primary_split: n500_mixed
+  top_k: 20
+  metrics: [section_recall_at_5, doc_recall_at_5, section_recall_at_10]
+
+hardware:
+  target_gpu: rtx_4090_24gb
+  mixed_precision: bf16
+
+output:
+  dir: runs/a2_small_control/
+  save_lora_adapter: true

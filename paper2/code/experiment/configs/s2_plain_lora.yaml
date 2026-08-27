@@ -1,0 +1,47 @@
+system_id: s2_plain_lora
+role: CRITICAL_ABLATION
+description: "Plain GTE-ModernColBERT-v1 + LoRA, without section prefixes"
+
+model:
+  base: lightonai/GTE-ModernColBERT-v1
+  library: pylate
+  max_query_length: 64
+  max_doc_length: 8192
+
+lora:
+  enabled: true
+  r: 16
+  alpha: 32
+  dropout: 0.1
+
+training:
+  data:
+    triples_path: data/train/dochop_qa_triples_t02.jsonl
+    use_section_prefix: false
+    hard_neg_threshold: 0.02
+    hard_neg_top_k: 1    # cap per-query negatives at 1 hard + 2 random = 3 total (24GB memory budget)
+    random_neg_k: 2
+  loss: contrastive_with_hard_negatives
+  optimizer: adamw
+  learning_rate: 3.0e-5
+  warmup_steps: 200
+  num_epochs: 3
+  per_device_batch_size: 8
+  gradient_accumulation_steps: 4   # effective batch 32
+  seed: 42
+
+eval:
+  primary_split: n500_mixed
+  query_ids: data/eval/query_ids_500.json
+  judge_cache: cache/judges/
+  top_k: 20
+  metrics: [section_recall_at_5, doc_recall_at_5, section_recall_at_10, end_task_judge_score]
+
+hardware:
+  target_gpu: rtx_4090_24gb
+  fallback_gpu: a40_48gb
+  mixed_precision: bf16
+
+output:
+  dir: runs/s2_plain_lora/
+  save_lora_adapter: true

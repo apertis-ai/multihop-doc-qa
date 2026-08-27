@@ -1,0 +1,413 @@
+{"dataset": "mhrag", "qid": "831", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "consistent", "gold": "Consistent", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1960", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "no", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "188", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "no", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "792", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "222", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "314", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1604", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1063", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "325", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1698", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "2042", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "No", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "2111", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "417", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1090", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "ChatGPT", "gold": "ChatGPT", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "2427", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "265", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1874", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "821", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "no", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1065", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1296", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "after", "gold": "Before", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "2255", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "D", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1628", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1506", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Escorts", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1974", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "17", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "2362", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1273", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "inconsistent", "gold": "Consistent", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1147", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "S", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1247", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1073", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "635", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "sportsbooks", "gold": "Sportsbooks", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "819", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1120", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "168", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1440", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Minnesota Vikings", "gold": "Minnesota Vikings", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "74", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Everton", "gold": "Everton Football Club", "em": 0.0, "f1": 0.5}
+{"dataset": "mhrag", "qid": "2203", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "A", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "301", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "No.", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1146", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "769", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1880", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "no", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1099", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Amazon", "gold": "Amazon", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "786", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "926", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "no", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "2016", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "703", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Nothing<br/><br/>", "gold": "Beeper Mini", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "713", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1668", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "916", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "no", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "861", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "400", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "437", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "2217", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "AC Milan", "gold": "Manchester United", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1553", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "no", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "213", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "D", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1034", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Miranda", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1526", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "649", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "576", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Unknown", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1802", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "940", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1886", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "148", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "805", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "No", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "9", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "422", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "No", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1559", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Israel", "gold": "Israel", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "972", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1900", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "2324", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "430", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "No", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "2378", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1511", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "5", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1720", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "2064", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "2065", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "no", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "966", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "No", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1706", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1088", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "621", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "no", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "36", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "11", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes.", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "2245", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1252", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "2011", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "2145", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "C", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1737", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "402", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "2158", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "104", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "333", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "956", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "No.", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1343", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1059", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "949", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "431", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Apple", "gold": "Google", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "476", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "inconsistent", "gold": "Consistent", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "2125", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Valve", "gold": "Valve", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1995", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "789", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1151", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Elon Musk", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1834", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1188", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1773", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Global Banking", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "374", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "M", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1657", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "865", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1982", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "782", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1597", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "152", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1981", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "306", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "503", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "no", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1755", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes.", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "2484", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "2170", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "800", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "no", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "121", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Anker", "gold": "Amazon", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1242", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "No", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "23", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1383", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1166", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Lyft", "gold": "Uber", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1338", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "2035", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "both", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1510", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1032", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "A", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "673", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1659", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1654", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "4", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "FanDuel", "gold": "Caesars Sportsbook", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "70", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Amazon", "gold": "Amazon", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "2475", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1349", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Different stages or versions", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "331", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1307", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Unknown", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1601", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1763", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "2386", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "CNN", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "722", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "2304", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Elizabeth Holmes", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "294", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "939", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "685", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Homeland Security", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "723", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "2054", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "no", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1454", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1391", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "no", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "2375", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1060", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "sportsbooks", "gold": "Sportsbooks.", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "728", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "2193", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "No", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1434", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1724", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "2374", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1618", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "M", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "65", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "2302", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Altman", "gold": "Sam Altman", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "72", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "645", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1189", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1525", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "True", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1488", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "M", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1708", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1537", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "743", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1049", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Videgaray", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1969", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "2022", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "982", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "no", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1046", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Equinix", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "2123", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "Consistent", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "50", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "230", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "327", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1476", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "159", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "India", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1978", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "2360", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "no", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1323", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "930", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1079", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "2387", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "2127", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "J", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "299", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "466", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "No.", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "2412", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sam Altman", "gold": "Sam Altman", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "455", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1013", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1715", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "607", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1217", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "inconsistent", "gold": "Consistent", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "178", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "267", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "X", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "993", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "2133", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_1547", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Indian Navy plane", "gold": "flotilla", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_2054", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "1843", "gold": "15 August 1843", "em": 0.0, "f1": 0.5}
+{"dataset": "hotpot", "qid": "hotpot_478", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Armenian", "gold": "Armenian", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_3245", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "community", "gold": "Centre of Excellence", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_1119", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Saoirse Ronan", "gold": "Saoirse Ronan", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_3575", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "The Lorax", "gold": "The Lorax", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_978", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Scott Adkins", "gold": "Scott Adkins", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_1668", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "War & Peace", "gold": "War & Peace", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_6149", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Midnight Oil", "gold": "Midnight Oil", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_4237", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "1966", "gold": "1967", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_1106", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Captain Underhill", "gold": "Captain John Underhill", "em": 0.0, "f1": 0.8}
+{"dataset": "hotpot", "qid": "hotpot_6953", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Stakeout", "gold": "The Outsiders", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_2375", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "investment company", "gold": "to ensure wide visibility and understanding of cases in a region", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_5129", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Guangzhou", "gold": "Keelung", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_4491", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "yes", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_720", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "piano", "gold": "an organ", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_1205", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "The George Washington Bridge", "gold": "the George Washington Bridge", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_5136", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Thiago Santos", "gold": "Vitor Belfort", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_4151", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sinaloa", "gold": "tip of the Baja California", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_4456", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Mozabite", "gold": "The Tugurt language", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_6054", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "M, William Fairbairn", "gold": "Q", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_7110", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "2002", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_4166", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Peter Howitt", "gold": "Oliver Parker", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_1564", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "United Kingdom", "gold": "a British composer", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_6694", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Rafael M\u00e1rquez", "gold": "Rafael M\u00e1rquez", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_3802", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "South Korea", "gold": "South Korea", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_7043", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Bury St Edmunds", "gold": "Bury St Edmunds", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_4109", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "1954", "gold": "1954", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_4368", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Paris", "gold": "France.", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_150", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Film director", "gold": "director", "em": 0.0, "f1": 0.6666666666666666}
+{"dataset": "hotpot", "qid": "hotpot_1653", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "literature, philosophy, theology", "gold": "Grammar, logic, and rhetoric", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_4619", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sinclair Oil", "gold": "Harry F. Sinclair", "em": 0.0, "f1": 0.4}
+{"dataset": "hotpot", "qid": "hotpot_2179", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "bass", "gold": "bass", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_6444", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Linda Ronstadt", "gold": "Linda Maria Ronstadt", "em": 0.0, "f1": 0.8}
+{"dataset": "hotpot", "qid": "hotpot_3882", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Ireland, Scotland, Wales, Cornwall, Isle of Man, Brittany", "gold": "Brittany, Cornwall, Ireland, Isle of Man, Scotland and Wales.", "em": 0.0, "f1": 0.9411764705882353}
+{"dataset": "hotpot", "qid": "hotpot_2951", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Thomas Newman", "gold": "Thomas Montgomery Newman", "em": 0.0, "f1": 0.8}
+{"dataset": "hotpot", "qid": "hotpot_224", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Awake", "gold": "Awake", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_902", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "competitive eating club", "gold": "the \"First Family of Competitive Eating\"", "em": 0.0, "f1": 0.4444444444444444}
+{"dataset": "hotpot", "qid": "hotpot_1009", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Argentine", "gold": "Argentinian", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_7251", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "1,840 students", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_654", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Miami Canal", "gold": "Dundee Canal", "em": 0.0, "f1": 0.5}
+{"dataset": "hotpot", "qid": "hotpot_6395", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Jane", "gold": "Jane", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_1979", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "The Most Dangerous Game", "gold": "The Most Dangerous Game", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_2395", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "England", "gold": "North West England", "em": 0.0, "f1": 0.5}
+{"dataset": "hotpot", "qid": "hotpot_3048", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "no", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_4120", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "family", "gold": "family", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_5848", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "yes", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_2923", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "St. Patrick's Day in 1988", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_6818", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Manchester Orchestra", "gold": "Manchester Orchestra", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_680", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Perfect Strangers", "gold": "Perfect Strangers", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_37", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "World War II", "gold": "World War II", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_6650", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "BMW X6", "gold": "BMW X6", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_1606", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "no", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_6481", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yakuza", "gold": "Yakuza", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_6982", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "master of ceremonies", "gold": "filibuster", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_4536", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "yes", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_5693", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Mexican Drug War", "gold": "Mexican War on Drugs", "em": 0.0, "f1": 0.5714285714285715}
+{"dataset": "hotpot", "qid": "hotpot_4568", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "no", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_4128", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Perfect Storm", "gold": "1991 Perfect Storm", "em": 0.0, "f1": 0.8}
+{"dataset": "hotpot", "qid": "hotpot_7365", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Robert Louis Fosse", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_6623", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "BitInstant", "gold": "BitInstant", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_2667", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "John Peel", "gold": "David Patrick Griffin", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_2980", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Aristotle", "gold": "Aristotle", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_1833", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Small forward", "gold": "small forward", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_6508", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "PlayStation 4", "gold": "PlayStation 4", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_4032", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "The Hunchback of Notre Dame", "gold": "Miracle of the White Stallions", "em": 0.0, "f1": 0.4000000000000001}
+{"dataset": "hotpot", "qid": "hotpot_6771", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Scotiabank Saddledome", "gold": "Scotiabank Saddledome", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_5203", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Cool Runnings", "gold": "Cool Runnings", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_6280", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Monroe", "gold": "Lee County, Mississippi", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_176", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "works of art", "gold": "drawings", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_1712", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Radcliffe College", "gold": "Radcliffe College", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_3388", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Washington, D.C.", "gold": "District of Columbia", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_2543", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "1979", "gold": "1979", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_2893", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Kenny Ortega", "gold": "Kenneth John \"Kenny\" Ortega (born April 18, 1950) is an American producer, director, and choreographer.", "em": 0.0, "f1": 0.23529411764705882}
+{"dataset": "hotpot", "qid": "hotpot_6613", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "2001", "gold": "2001", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_854", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Unknown", "gold": "Hindi", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_4865", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Battle of Tarawa", "gold": "The Battle of Tarawa", "em": 0.0, "f1": 0.8571428571428571}
+{"dataset": "hotpot", "qid": "hotpot_102", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "2003", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_3235", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Universal Studios", "gold": "Universal Studios Florida", "em": 0.0, "f1": 0.8}
+{"dataset": "hotpot", "qid": "hotpot_5498", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "1969", "gold": "1968", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_1666", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "no", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_4240", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "John Ford", "gold": "John Ford", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_4787", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "yes", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_3042", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Idina Menzel", "gold": "Idina Kim Menzel", "em": 0.0, "f1": 0.8}
+{"dataset": "hotpot", "qid": "hotpot_3620", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "10", "gold": "ten episodes", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_1611", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "62", "gold": "15th consecutive", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_4233", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Strictly Come Dancing", "gold": "\"Dancing on Ice\" around the world", "em": 0.0, "f1": 0.2222222222222222}
+{"dataset": "hotpot", "qid": "hotpot_5948", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "1", "gold": "two Grammy awards", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_1011", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Player of the Year", "gold": "Player of the Year", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_754", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Popular Science", "gold": "Girlfriends", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_592", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "2011", "gold": "2005", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_3681", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "The Hunchback of Notre Dame", "gold": "Quasimodo", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_2703", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Dorset", "gold": "West Dorset, South West England.", "em": 0.0, "f1": 0.4}
+{"dataset": "hotpot", "qid": "hotpot_7382", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "International Style", "gold": "Art Deco-style skyscraper", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_626", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "575 acres (2.08 km\u00b2)", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_2806", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Cheng Pei-pei, Carina Lau, Yang Mi", "gold": "Liu Ye, Yu Shaoqun and Leon Lai", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_4502", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Fort Lauderdale", "gold": "Hollywood, Florida", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_41", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "Mumbai", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_6937", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Hungary", "gold": "Hungary", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_2778", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Mike Holmgren", "gold": "Mike Holmgren", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_4589", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Jean-Marc Vall\u00e9e", "gold": "Jean-Marc Vall\u00e9e", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_2724", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "N.I.B.", "gold": "N.I.B.", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_5148", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Alban Berg", "gold": "Theodor W. Adorno", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_4438", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_5597", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "1976", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_4851", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Italian", "gold": "Danish", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_6672", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "most consecutive sold-out shows", "gold": "most awarded female act of all-time", "em": 0.0, "f1": 0.2}
+{"dataset": "hotpot", "qid": "hotpot_1654", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Venture Crew Member", "gold": "Gondorian soldier", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_3696", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "1993", "gold": "1993", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_797", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "play-by-email", "gold": "play-by-post role-playing game", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_4993", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Barney Fife", "gold": "Barney Fife", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_1865", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "Beatles", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_2907", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "April 25, 1926", "gold": "June 22, 1953", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_3859", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Shortstop", "gold": "third baseman", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_3222", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "eight", "gold": "eight", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_2022", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Haitian Revolution", "gold": "the Haitian Revolution", "em": 0.0, "f1": 0.8}
+{"dataset": "hotpot", "qid": "hotpot_350", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "2017", "gold": "September 8, 2017", "em": 0.0, "f1": 0.5}
+{"dataset": "hotpot", "qid": "hotpot_3962", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "John McClane", "gold": "John McClane", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_6087", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Czechoslovakia", "gold": "Ufa, Russia", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_3352", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Crocosmia", "gold": "Crocosmia", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_7331", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Desmond Tutu", "gold": "Desmond Mpilo Tutu", "em": 0.0, "f1": 0.8}
+{"dataset": "hotpot", "qid": "hotpot_2877", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "City Hunter", "gold": "Mr. Nice Guy", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_6536", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Big Machine Records", "gold": "Big Machine Records", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_502", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "189", "gold": "219", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_1770", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Daniil Shafran", "gold": "Daniil Shafran", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_6681", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Retina", "gold": "Retina", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_682", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Chelsea Does", "gold": "Chelsea Does", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_4084", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Benny Andersson", "gold": "Benny Andersson", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_283", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sacred Planet", "gold": "Sacred Planet", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_6498", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "1,012,837", "gold": "over 1 million", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_4440", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "1910", "gold": "1919", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_1930", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "The Wind in the Willows", "gold": "The Wind in the Willows", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_6096", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "LA Galaxy II", "gold": "LA Galaxy", "em": 0.0, "f1": 0.8}
+{"dataset": "hotpot", "qid": "hotpot_6380", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "sixteen", "gold": "fifty-word", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_1090", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Queen", "gold": "EN World web site", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_2203", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "15", "gold": "seven", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_6698", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Miles Fitzalan-Howard, 17th Duke of Norfolk", "gold": "Miles Fitzalan-Howard, 17th Duke of Norfolk", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_2078", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Hollywood", "gold": "yes", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_2262", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "yes", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_4157", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "George Bernard Shaw", "gold": "George Bernard Shaw", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_4544", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Las Vegas Boulevard", "gold": "Las Vegas Boulevard", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_752", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_1368", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "English", "gold": "English-language", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_779", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Allen County", "gold": "Bourbon County", "em": 0.0, "f1": 0.5}
+{"dataset": "hotpot", "qid": "hotpot_7306", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "1996-2000", "gold": "1984 to 1985", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_6038", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "G7", "gold": "G20", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_3284", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "five", "gold": "five", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_7386", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "New York", "gold": "Detroit, Michigan", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_3246", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Stadtbahn", "gold": "Greater Manchester's Metrolink", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_4947", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "George IV", "gold": "1st Earl Grosvenor", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_6111", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "no", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_5135", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Kim Yoon-seok, Ha Jung-woo", "gold": "Kim Yoon-seok and Ha Jung-woo", "em": 0.0, "f1": 0.888888888888889}
+{"dataset": "hotpot", "qid": "hotpot_1498", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yorgos Lanthimos", "gold": "Yorgos Lanthimos", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_98", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Beijing", "gold": "Beijing", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_27", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "yes", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_3507", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "no", "gold": "no", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_5286", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Blackpool F.C.", "gold": "Blackpool Football Club", "em": 0.0, "f1": 0.4}
+{"dataset": "hotpot", "qid": "hotpot_5110", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "James", "gold": "Shohola Falls", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_5189", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "The Things We Do for Love", "gold": "Life Is a Minestrone", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_5969", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Westlake Recording Studios", "gold": "at Westlake Recording Studios in Los Angeles", "em": 0.0, "f1": 0.6}
+{"dataset": "hotpot", "qid": "hotpot_1316", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Great Neck", "gold": "New York, United States", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_6905", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "between 7,500 and 40,000", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_2919", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Arsenal", "gold": "Arsenal", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_5368", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Yes", "gold": "yes", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_4767", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "YIVO Institute for Jewish Research", "gold": "YIVO", "em": 0.0, "f1": 0.33333333333333337}
+{"dataset": "hotpot", "qid": "hotpot_1834", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "cultural district", "gold": "business district", "em": 0.0, "f1": 0.5}
+{"dataset": "mhrag", "qid": "2450", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "I", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "1503", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "TikTok", "gold": "TikTok", "em": 1.0, "f1": 1.0}
+{"dataset": "mhrag", "qid": "1624", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"dataset": "mhrag", "qid": "2336", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_995", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "William Walton", "gold": "William Shakespeare", "em": 0.0, "f1": 0.5}
+{"dataset": "hotpot", "qid": "hotpot_567", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Chickasaw Nation", "gold": "Las Vegas Sands company.", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_400", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Henry VIII", "gold": "King George IV", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_7336", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Berklee College of Music", "gold": "Berklee College of Music", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_3411", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Josh Shapiro", "gold": "Mark Dayton", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_7336", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Berklee College of Music", "gold": "Berklee College of Music", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_4183", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Daniel Craig", "gold": "Emilia Fox", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_3411", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Josh Green", "gold": "Mark Dayton", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_4183", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Emilia Fox", "gold": "Emilia Fox", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_7203", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Sarah Snook", "gold": "Yoo Seung-ho", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_7215", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "James Lapine", "gold": "James Elliot Lapine", "em": 0.0, "f1": 0.8}
+{"dataset": "hotpot", "qid": "hotpot_1710", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "O.T. Genasis", "gold": "O.T. Genasis", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_7203", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Rosalind Eleazar", "gold": "Yoo Seung-ho", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_7215", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "James Lapine", "gold": "James Elliot Lapine", "em": 0.0, "f1": 0.8}
+{"dataset": "hotpot", "qid": "hotpot_1597", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "BBC", "gold": "BBC", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_1710", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "O.T. Genasis", "gold": "O.T. Genasis", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_1249", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "tennis", "gold": "tennis", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_1597", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "BBC", "gold": "BBC", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_3192", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "1931", "gold": "born October 25, 1931", "em": 0.0, "f1": 0.4}
+{"dataset": "hotpot", "qid": "hotpot_1660", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Jean-Paul Gaultier", "gold": "Greg Gorman and Helmut Newton", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_1249", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "tennis", "gold": "tennis", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_686", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Marcus Memmius Regulus", "gold": "Gaius Julius Caesar Augustus Germanicus", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_6326", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Matt Groening", "gold": "Matt Groening", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_4230", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "yes", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_3192", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "", "gold": "born October 25, 1931", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_3229", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Rocky Mountain Institute", "gold": "Rocky Mountain Institute", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_4056", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "The Tempest", "gold": "The Tempest", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_2481", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "yes", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_1724", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "1982", "gold": "1983", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_6656", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Betty Comden and Adolph Green", "gold": "Arthur Freed", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_1484", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "The Taking of Pelham One Two Three", "gold": "The Longest Yard", "em": 0.0, "f1": 0.2}
+{"dataset": "hotpot", "qid": "hotpot_1660", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "John Casablancas", "gold": "Greg Gorman and Helmut Newton", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_3153", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Noah Okafor", "gold": "Andrea Locatelli", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_5760", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "French", "gold": "Dutch", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_4970", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "37.5", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_686", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Publius Memmius Regulus", "gold": "Gaius Julius Caesar Augustus Germanicus", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_6326", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Matt Groening", "gold": "Matt Groening", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_4230", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "yes", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_3229", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Rocky Mountain Institute", "gold": "Rocky Mountain Institute", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_4056", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "The Tempest", "gold": "The Tempest", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_2481", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "yes", "gold": "yes", "em": 1.0, "f1": 1.0}
+{"dataset": "hotpot", "qid": "hotpot_1724", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "1982", "gold": "1983", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_6656", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Betty Comden and Adolph Green", "gold": "Arthur Freed", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_1484", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "The Towering Inferno", "gold": "The Longest Yard", "em": 0.0, "f1": 0.3333333333333333}
+{"dataset": "hotpot", "qid": "hotpot_3153", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "Xherdan Shaqiri", "gold": "Andrea Locatelli", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_5760", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "French", "gold": "Dutch", "em": 0.0, "f1": 0.0}
+{"dataset": "hotpot", "qid": "hotpot_4970", "model": "deepseek-v4-pro", "setting": "no_context", "pred": "unknown", "gold": "37.5", "em": 0.0, "f1": 0.0}

@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "n_sample_target": 200,
+    "datasets": [
+      "MultiHop-RAG",
+      "HotpotQA-distractor-validation"
+    ],
+    "readers": [
+      "gpt-5.5",
+      "claude-opus-4-7",
+      "deepseek-v4-pro"
+    ]
+  },
+  "mhrag": {
+    "no_context": {
+      "gpt-5.5": {
+        "n": 197,
+        "em": 0.6802030456852792,
+        "f1": 0.6979695431472082
+      },
+      "claude-opus-4-7": {
+        "n": 200,
+        "em": 0.54,
+        "f1": 0.5491666666666667
+      },
+      "deepseek-v4-pro": {
+        "n": 200,
+        "em": 0.475,
+        "f1": 0.4775
+      }
+    },
+    "shuffled_context_gpt-5.5": {
+      "n": 200,
+      "em": 0.06,
+      "f1": 0.125
+    },
+    "paper_w6_gpt-5.5_top5": {
+      "stali": 0.524,
+      "hipporag2": 0.462,
+      "linearrag": 0.352
+    },
+    "retrieval_lift_at_5_gpt-5.5": 0.464
+  },
+  "hotpotqa": {
+    "no_context": {
+      "gpt-5.5": {
+        "n": 191,
+        "em": 0.4869109947643979,
+        "f1": 0.6120644472045765
+      },
+      "deepseek-v4-pro": {
+        "n": 191,
+        "em": 0.41361256544502617,
+        "f1": 0.5151514707104482
+      }
+    },
+    "shuffled_context_gpt-5.5": {
+      "n": 200,
+      "em": 0.01,
+      "f1": 0.013999999999999999
+    },
+    "paper_w6_gpt-5.5_top5": {
+      "stali": 0.568,
+      "hipporag2": 0.55,
+      "linearrag": 0.398
+    },
+    "retrieval_lift_at_5_gpt-5.5": 0.5579999999999999
+  },
+  "cross_llm_agreement": {
+    "mhrag": {
+      "gpt-5.5_vs_claude-opus": {
+        "n_overlap": 197,
+        "all_agree_em": 0.7868020304568528
+      },
+      "gpt-5.5_vs_deepseek": {
+        "n_overlap": 197,
+        "all_agree_em": 0.6751269035532995
+      },
+      "claude-opus_vs_deepseek": {
+        "n_overlap": 200,
+        "all_agree_em": 0.685
+      },
+      "3-way_all_agree": {
+        "n_overlap": 197,
+        "all_agree_em": 0.5736040609137056
+      }
+    },
+    "hotpotqa": {
+      "gpt-5.5_vs_deepseek": {
+        "n_overlap": 191,
+        "all_agree_em": 0.7591623036649214
+      }
+    }
+  },
+  "llama_3_1_8b_matched_reader": {
+    "mhrag": {
+      "stali": {
+        "em": 0.344,
+        "f1": 0.4163320586820587,
+        "n": 500
+      },
+      "hipporag2": {
+        "em": 0.39,
+        "f1": 0.45287326070248657,
+        "n": 500
+      },
+      "linearrag": {
+        "em": 0.238,
+        "f1": 0.3330092156119743,
+        "para_r5": 0.1705,
+        "n": 500
+      }
+    },
+    "hotpotqa": {
+      "stali": {
+        "em": 0.372,
+        "f1": 0.48134246513070067,
+        "para_r5": 0.873,
+        "n": 500
+      },
+      "hipporag2": {
+        "em": 0.348,
+        "f1": 0.4821596087927808,
+        "para_r5": 0.828,
+        "n": 500
+      },
+      "linearrag": {
+        "em": 0.274,
+        "f1": 0.36587629094653606,
+        "para_r5": 0.624,
+        "n": 500
+      }
+    },
+    "paper_w6_gpt-5.5": {
+      "mhrag": {
+        "stali": 0.524,
+        "hipporag2": 0.462,
+        "linearrag": 0.352
+      },
+      "hotpot": {
+        "stali": 0.568,
+        "hipporag2": 0.55,
+        "linearrag": 0.398
+      }
+    },
+    "ranking_under_llama_8b": {
+      "mhrag": "hipporag2 > stali > linearrag (MATCHED-READER FLIP vs gpt-5.5)",
+      "hotpotqa": "stali > hipporag2 > linearrag (PRESERVED vs gpt-5.5)"
+    },
+    "matched_reader_paired_test_mhrag": {
+      "delta_em_hipporag_minus_stali": 0.046,
+      "ci": [
+        0.01,
+        0.082
+      ],
+      "p_value": 0.0162,
+      "cohen_d": 0.10957461045317073
+    }
+  }
+}

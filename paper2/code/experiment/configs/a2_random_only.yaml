@@ -1,0 +1,45 @@
+system_id: a2_random_only
+role: A2_ABLATION_RANDOM_ONLY_NEGATIVES
+description: "Plain LoRA on GTE-ModernColBERT-v1 with 3 RANDOM negatives per query (no §5.1 hard negs). Tests whether the §5.1 mining is actually what drives S2's gain over S3."
+
+model:
+  base: lightonai/GTE-ModernColBERT-v1
+  library: pylate
+  max_query_length: 64
+  max_doc_length: 8192
+
+lora:
+  enabled: true
+  r: 16
+  alpha: 32
+  dropout: 0.1
+
+training:
+  data:
+    triples_path: data/train/dochop_qa_triples_t02.jsonl
+    use_section_prefix: false
+    hard_neg_threshold: 0.02
+    hard_neg_top_k: 0      # ← ZERO hard negatives (key ablation)
+    random_neg_k: 3        # ← only random negs (same total count as S2: 1 hard + 2 random = 3)
+  loss: contrastive_random_only
+  optimizer: adamw
+  learning_rate: 3.0e-5
+  warmup_steps: 200
+  num_epochs: 3
+  per_device_batch_size: 8
+  gradient_accumulation_steps: 4
+  seed: 42
+
+eval:
+  primary_split: n500_mixed
+  query_ids: data/eval/query_ids_500.json
+  top_k: 20
+  metrics: [section_recall_at_5, doc_recall_at_5, section_recall_at_10]
+
+hardware:
+  target_gpu: rtx_4090_24gb
+  mixed_precision: bf16
+
+output:
+  dir: runs/a2_random_only/
+  save_lora_adapter: true

@@ -1,0 +1,49 @@
+system_id: a2_hotpotqa
+role: A2_HOTPOTQA_PRIMARY
+description: "STALI A2 (LoRA r=16 on GTE-ModernColBERT-v1) trained on HotpotQA distractor. Same config as DocHop a2_random_only to enable cross-dataset ablation."
+
+model:
+  base: lightonai/GTE-ModernColBERT-v1
+  library: pylate
+  max_query_length: 64
+  max_doc_length: 8192
+
+lora:
+  enabled: true
+  r: 16
+  alpha: 32
+  dropout: 0.1
+
+training:
+  data:
+    triples_path: data/hotpotqa/qrels.jsonl
+    use_section_prefix: false
+    passages_path: data/hotpotqa/passages.jsonl
+    queries_path: data/hotpotqa/queries.jsonl
+    hard_neg_threshold: 0.02
+    hard_neg_top_k: 0      # ← ZERO hard negatives (random only, same as a2_random_only)
+    random_neg_k: 3        # ← only random negs
+  loss: contrastive_random_only
+  optimizer: adamw
+  learning_rate: 3.0e-5
+  warmup_steps: 200
+  num_epochs: 3
+  per_device_batch_size: 8
+  gradient_accumulation_steps: 4
+  seed: 42
+
+eval:
+  primary_split: e_hotpotqa_prep
+  passages_path: data/hotpotqa/passages.jsonl
+  queries_path: data/hotpotqa/queries.jsonl
+  qrels_path: data/hotpotqa/qrels.jsonl
+  top_k: 20
+  metrics: [section_recall_at_5, doc_recall_at_5, section_recall_at_10, mrr_at_10]
+
+hardware:
+  target_gpu: rtx_6000_ada_48gb
+  mixed_precision: bf16
+
+output:
+  dir: runs/a2_hotpotqa_seed42/
+  save_lora_adapter: true
