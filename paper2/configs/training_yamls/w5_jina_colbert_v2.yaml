@@ -1,0 +1,36 @@
+system_id: w5_jina_colbert_v2_zeroshot
+role: LATE_INTERACTION_CROSSBACKBONE_BASELINE
+description: "Zero-shot retrieval using Jina ColBERT v2 (XLM-RoBERTa backbone, cross-lingual capable). Tests whether different backbone (non-ModernBERT) enables comparable late-interaction performance on same datasets."
+
+model:
+  base: jinaai/jina-colbert-v2
+  library: pylate
+  head_variant: disabled
+  max_query_length: 64
+  max_doc_length: 8192
+
+inference:
+  inference_type: zero_shot
+  top_k: 20
+  batch_size: 32
+  use_gpu: true
+  mixed_precision: bf16
+
+datasets:
+  - name: dochop
+    passages: data/dochop/passages.jsonl
+    queries: data/dochop/queries.jsonl
+    qrels: data/dochop/qrels.jsonl
+  - name: multihoprag
+    passages: data/multihoprag/passages.jsonl
+    queries: data/multihoprag/queries.jsonl
+    qrels: data/multihoprag/qrels.jsonl
+  - name: hotpotqa
+    passages: data/hotpotqa/passages.jsonl
+    queries: data/hotpotqa/queries.jsonl
+    qrels: data/hotpotqa/qrels.jsonl
+
+metrics: [section_recall_at_5, doc_recall_at_5, mrr_at_10]
+
+output:
+  base_dir: runs/w5_jina_colbert_v2_zeroshot/

@@ -1,0 +1,65 @@
+### Historical baseline metadata for S3–S7 (no training).
+### This consolidated inventory is not a direct run_n500 input; use an individual system YAML or explicit CLI options.
+
+shared:
+  query_ids: data/eval/query_ids_500.json
+  judge_cache: cache/judges/
+  top_k: 20
+  metrics: [section_recall_at_5, doc_recall_at_5, section_recall_at_10, end_task_judge_score]
+
+systems:
+
+  S3_zero_shot_gte_moderncolbert:
+    role: ZERO_SHOT_BASELINE
+    description: "GTE-ModernColBERT-v1 as shipped, no fine-tuning. Isolates benefit of DocHop-QA fine-tuning."
+    model:
+      base: lightonai/GTE-ModernColBERT-v1
+      library: pylate
+      training: none
+    license: apache-2.0
+
+  S4_itsr_on_jina_v5:
+    role: M2_INFERENCE_TIME_BASELINE
+    description: "Paper 1 jina-v5 dense retriever + inference-time section-type prior multiplier"
+    model:
+      base: jinaai/jina-embeddings-v5-text-small  # paper 1 primary dense
+      library: sentence_transformers
+      training: none
+    inference_reweight:
+      abstract: 0.7
+      introduction: 0.7
+      methods: 1.2
+      results: 1.2
+      discussion: 1.0
+      conclusion: 0.7
+      tables_figures: 1.3
+
+  S5_bge_m3_multivec:
+    role: STRONG_OFFSHELF_BASELINE
+    description: "BAAI/bge-m3 in multi-vector (ColBERT-style) mode. Strongest off-shelf LI model, MIT licensed."
+    model:
+      base: BAAI/bge-m3
+      library: flagembedding
+      mode: multi_vector
+      training: none
+    license: mit
+
+  S6_reason_moderncolbert:
+    role: SAME_ARCH_REASONING_TUNED_BASELINE
+    description: "lightonai/Reason-ModernColBERT — same ModernBERT backbone as S1 but reasoning-tuned. Eval only."
+    model:
+      base: lightonai/Reason-ModernColBERT
+      library: pylate
+      training: none
+    license: cc-by-nc-4.0
+    redistribution: EVAL_ONLY_NOT_REDISTRIBUTED
+
+  S7_colbertv2_classic:
+    role: HISTORICAL_ANCHOR
+    description: "Original ColBERTv2 at 512 ctx. Part of the long-context-matters argument."
+    model:
+      base: colbert-ir/colbertv2.0
+      library: pylate  # via pylate's legacy loader
+      training: none
+      max_doc_length: 512  # deliberately short; paper argues this is a ceiling
+    license: mit

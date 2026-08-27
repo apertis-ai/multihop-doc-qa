@@ -1,0 +1,28 @@
+{
+  "n": 50,
+  "labels_observed": [
+    "CORRECT",
+    "INCORRECT",
+    "PARTIAL"
+  ],
+  "joint_distribution": {
+    "CORRECT|CORRECT": 29,
+    "PARTIAL|CORRECT": 7,
+    "PARTIAL|PARTIAL": 5,
+    "CORRECT|PARTIAL": 6,
+    "CORRECT|INCORRECT": 1,
+    "PARTIAL|INCORRECT": 1,
+    "INCORRECT|CORRECT": 1
+  },
+  "three_class": {
+    "observed_agreement": 0.68,
+    "cohen_kappa": 0.21798631476050845,
+    "gwet_ac1": 0.5978383812994847,
+    "krippendorff_alpha_nominal": 0.21683798335780746
+  },
+  "two_class_accept_vs_incorrect": {
+    "observed_agreement": 0.94,
+    "cohen_kappa": -0.027397260273973385,
+    "gwet_ac1": 0.9362922064132512
+  }
+}

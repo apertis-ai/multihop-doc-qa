@@ -1,0 +1,59 @@
+system_id: s2_pure_hard_neg
+role: S2_PURE_HARD_NEGATIVE_ONLY
+description: |
+  Pure hard-negative LoRA — trains ONLY on the 6,343 triples that have at least one
+  hard negative (Jaccard >= tau=0.02), using zero random fallback negatives.
+  This is the clean ablation for C1: isolates the hard-negative signal without
+  the 42% random-fallback contamination in the original S2 (hybrid).
+
+  Companion experiment: a2_small_control.yaml (random negatives, same 6,343 triples).
+
+  Design:
+  - Filter dochop_qa_triples_t02.jsonl to only rows where hard_neg_count > 0
+  - Use 1 hard negative + 0 random fallback per triple (hard_neg_k=1, random_neg_k=0)
+  - Effective training set: 6,343 triples (58.3% of 10,879 total)
+
+model:
+  base: lightonai/GTE-ModernColBERT-v1
+  library: pylate
+  head_variant: disabled
+  max_query_length: 64
+  max_doc_length: 8192
+
+lora:
+  enabled: true
+  r: 16
+  alpha: 32
+  dropout: 0.1
+  target_modules: [Wqkv, Wo]
+  bias: none
+  task_type: FEATURE_EXTRACTION
+
+training:
+  data:
+    triples_path: data/train/dochop_qa_triples_t02.jsonl
+    filter_hard_neg_only: true       # ← NEW flag: drop triples without hard negatives
+    hard_neg_threshold: 0.02         # threshold used to build the preserved triples
+    hard_neg_top_k: 1                # 1 hard negative per triple
+    random_neg_k: 0                  # ← ZERO random fallback (key: pure hard-neg)
+  loss: contrastive
+  optimizer: adamw
+  learning_rate: 3.0e-5
+  warmup_steps: 150
+  num_epochs: 3
+  per_device_batch_size: 8
+  gradient_accumulation_steps: 4
+  seed: 43                           # same seed as headline A2 for comparability
+
+eval:
+  primary_split: n500_mixed
+  top_k: 20
+  metrics: [section_recall_at_5, doc_recall_at_5, section_recall_at_10]
+
+hardware:
+  target_gpu: rtx_4090_24gb
+  mixed_precision: bf16
+
+output:
+  dir: runs/s2_pure_hard_neg/
+  save_lora_adapter: true

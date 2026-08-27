@@ -1,0 +1,40 @@
+system_id: s3_512ctx
+role: S3_512CTX_ZERO_SHOT
+description: |
+  Zero-shot eval of GTE-ModernColBERT-v1 at 512-token context (same model as S3,
+  truncated to 512). Designed to isolate the context-length contribution from the
+  model-family contribution in the P1b → S3 backbone gain.
+
+  This replaces the S7 (ColBERTv2, 512-ctx) bridge in §4.2, which conflated:
+  (1) bi-encoder → late-interaction (different model family)
+  (2) 512 → 512 (same context; confounded by model family)
+
+  With S3-512, the §4.2 decomposition becomes:
+  Step 1: P1b → S3-512: changes late-interaction vs bi-encoder WITHIN same context
+  Step 2: S3-512 → S3: changes context length 512→8192 WITHIN same model/architecture
+
+  This is eval-only — no training needed. Just re-index with max_doc_length=512.
+
+model:
+  base: lightonai/GTE-ModernColBERT-v1
+  library: pylate
+  head_variant: disabled
+  max_query_length: 64
+  max_doc_length: 512                # ← KEY: truncate to 512 (vs S3's 8192)
+
+lora:
+  enabled: false                     # zero-shot, no LoRA
+
+eval:
+  primary_split: n500_mixed
+  top_k: 20
+  metrics: [section_recall_at_5, doc_recall_at_5, section_recall_at_10]
+  index_dir: runs/s3_512ctx/index/   # separate index from S3 (different context)
+
+hardware:
+  target_gpu: rtx_4090_24gb
+  mixed_precision: bf16
+
+output:
+  dir: runs/s3_512ctx/
+  save_lora_adapter: false

@@ -1,0 +1,48 @@
+system_id: e6_multihoprag
+role: E6_MULTIHOPRAG_INDATASET_LORA
+description: "E6 in-dataset LoRA training on MultiHop-RAG. Mirrors the A2 random-only recipe; section-based hard-negative mining is not applicable to news paragraphs. Held-out eval n=500 (seed=42)."
+
+model:
+  base: lightonai/GTE-ModernColBERT-v1
+  library: pylate
+  head_variant: disabled
+  max_query_length: 64
+  max_doc_length: 512   # paragraph unit, not section
+
+lora:
+  enabled: true
+  r: 16
+  alpha: 32
+  dropout: 0.1
+  target_modules: [Wqkv, Wo]
+  bias: none
+  task_type: FEATURE_EXTRACTION
+
+training:
+  data:
+    triples_path: data/train/multihoprag_triples.jsonl
+    use_section_prefix: false   # no section types in MultiHop-RAG
+    hard_neg_top_k: 0
+    random_neg_k: 3
+  loss: contrastive_random_only
+  optimizer: adamw
+  learning_rate: 3.0e-5
+  warmup_steps: 20    # 1826 triples / bs 8 / accum 4 = ~57 steps/epoch * 3 = 171 total
+  num_epochs: 3
+  per_device_batch_size: 8
+  gradient_accumulation_steps: 4
+  seed: 42
+
+eval:
+  primary_split: multihoprag_n500_heldout
+  query_ids: data/train/multihoprag_heldout_qids.json
+  top_k: 20
+  metrics: [paragraph_recall_at_5, doc_recall_at_5, paragraph_recall_at_10]
+
+hardware:
+  target_gpu: rtx_4090_24gb
+  mixed_precision: bf16
+
+output:
+  dir: runs/e6_multihoprag/
+  save_lora_adapter: true

@@ -1,0 +1,391 @@
+{"qid": "hotpot_1547", "setting": "no_context", "model": "gpt-5.5", "pred": "PNS Ghazi", "gold": "flotilla", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1547", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "flotilla", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2054", "setting": "no_context", "model": "gpt-5.5", "pred": "15 August 1843", "gold": "15 August 1843", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_2054", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "15 August 1843", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_478", "setting": "no_context", "model": "gpt-5.5", "pred": "Armenia", "gold": "Armenian", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_478", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Armenian", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3245", "setting": "no_context", "model": "gpt-5.5", "pred": "Sports College", "gold": "Centre of Excellence", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3245", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Centre of Excellence", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1119", "setting": "no_context", "model": "gpt-5.5", "pred": "Saoirse Ronan", "gold": "Saoirse Ronan", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_1119", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Saoirse Ronan", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3575", "setting": "no_context", "model": "gpt-5.5", "pred": "", "gold": "The Lorax", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3575", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "The Lorax", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_978", "setting": "no_context", "model": "gpt-5.5", "pred": "Scott Adkins", "gold": "Scott Adkins", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_978", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Scott Adkins", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1668", "setting": "no_context", "model": "gpt-5.5", "pred": "War & Peace", "gold": "War & Peace", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_1668", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "War & Peace", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6149", "setting": "no_context", "model": "gpt-5.5", "pred": "Midnight Oil", "gold": "Midnight Oil", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_6149", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Midnight Oil", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4237", "setting": "no_context", "model": "gpt-5.5", "pred": "1967", "gold": "1967", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_4237", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "1967", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1106", "setting": "no_context", "model": "gpt-5.5", "pred": "John Underhill", "gold": "Captain John Underhill", "em": 0.0, "f1": 0.8}
+{"qid": "hotpot_1106", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Captain John Underhill", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6953", "setting": "no_context", "model": "gpt-5.5", "pred": "The Outsiders", "gold": "The Outsiders", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_6953", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "The Outsiders", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2375", "setting": "no_context", "model": "gpt-5.5", "pred": "barbecue restaurant", "gold": "to ensure wide visibility and understanding of cases in a region", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2375", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "to ensure wide visibility and understanding of cases in a region", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5129", "setting": "no_context", "model": "gpt-5.5", "pred": "Guangzhou", "gold": "Keelung", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5129", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Keelung", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4491", "setting": "no_context", "model": "gpt-5.5", "pred": "yes", "gold": "yes", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_4491", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "yes", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_720", "setting": "no_context", "model": "gpt-5.5", "pred": "piano", "gold": "an organ", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_720", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "an organ", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1205", "setting": "no_context", "model": "gpt-5.5", "pred": "Long Island", "gold": "the George Washington Bridge", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1205", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "the George Washington Bridge", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5136", "setting": "no_context", "model": "gpt-5.5", "pred": "Derek Brunson", "gold": "Vitor Belfort", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5136", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Vitor Belfort", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4151", "setting": "no_context", "model": "gpt-5.5", "pred": "Sinaloa", "gold": "tip of the Baja California", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4151", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "tip of the Baja California", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4456", "setting": "no_context", "model": "gpt-5.5", "pred": "Nafusi", "gold": "The Tugurt language", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4456", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "The Tugurt language", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6054", "setting": "no_context", "model": "gpt-5.5", "pred": "M", "gold": "Q", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6054", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Q", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_7110", "setting": "no_context", "model": "gpt-5.5", "pred": "2000", "gold": "2002", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_7110", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "2002", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4166", "setting": "no_context", "model": "gpt-5.5", "pred": "Oliver Parker", "gold": "Oliver Parker", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_4166", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Oliver Parker", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1564", "setting": "no_context", "model": "gpt-5.5", "pred": "United Kingdom", "gold": "a British composer", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1564", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "a British composer", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6694", "setting": "no_context", "model": "gpt-5.5", "pred": "Rafael M\u00e1rquez", "gold": "Rafael M\u00e1rquez", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_6694", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Rafael M\u00e1rquez", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3802", "setting": "no_context", "model": "gpt-5.5", "pred": "South Korea", "gold": "South Korea", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_3802", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "South Korea", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_7043", "setting": "no_context", "model": "gpt-5.5", "pred": "Bury St Edmunds", "gold": "Bury St Edmunds", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_7043", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Bury St Edmunds", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4109", "setting": "no_context", "model": "gpt-5.5", "pred": "1954", "gold": "1954", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_4109", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "1954", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4368", "setting": "no_context", "model": "gpt-5.5", "pred": "Birmingham", "gold": "France.", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4368", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "France.", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_150", "setting": "no_context", "model": "gpt-5.5", "pred": "film director", "gold": "director", "em": 0.0, "f1": 0.6666666666666666}
+{"qid": "hotpot_150", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "director", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6058", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Noel Gallagher", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1653", "setting": "no_context", "model": "gpt-5.5", "pred": "grammar, logic, and rhetoric", "gold": "Grammar, logic, and rhetoric", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_1653", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Grammar, logic, and rhetoric", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4619", "setting": "no_context", "model": "gpt-5.5", "pred": "Harry F. Sinclair", "gold": "Harry F. Sinclair", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_4619", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Harry F. Sinclair", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2179", "setting": "no_context", "model": "gpt-5.5", "pred": "bass guitar", "gold": "bass", "em": 0.0, "f1": 0.6666666666666666}
+{"qid": "hotpot_2179", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "bass", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6444", "setting": "no_context", "model": "gpt-5.5", "pred": "Linda Ronstadt", "gold": "Linda Maria Ronstadt", "em": 0.0, "f1": 0.8}
+{"qid": "hotpot_6444", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Linda Maria Ronstadt", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3882", "setting": "no_context", "model": "gpt-5.5", "pred": "Ireland, Scotland, Wales, Cornwall, Isle of Man, Brittany", "gold": "Brittany, Cornwall, Ireland, Isle of Man, Scotland and Wales.", "em": 0.0, "f1": 0.9411764705882353}
+{"qid": "hotpot_3882", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Brittany, Cornwall, Ireland, Isle of Man, Scotland and Wales.", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2951", "setting": "no_context", "model": "gpt-5.5", "pred": "Thomas Newman", "gold": "Thomas Montgomery Newman", "em": 0.0, "f1": 0.8}
+{"qid": "hotpot_2951", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Thomas Montgomery Newman", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_224", "setting": "no_context", "model": "gpt-5.5", "pred": "Awake", "gold": "Awake", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_224", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Awake", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_902", "setting": "no_context", "model": "gpt-5.5", "pred": "unknown", "gold": "the \"First Family of Competitive Eating\"", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_902", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "the \"First Family of Competitive Eating\"", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1009", "setting": "no_context", "model": "gpt-5.5", "pred": "Argentinean", "gold": "Argentinian", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1009", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Argentinian", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6856", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Walt Disney Productions", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_7251", "setting": "no_context", "model": "gpt-5.5", "pred": "1,840", "gold": "1,840 students", "em": 0.0, "f1": 0.6666666666666666}
+{"qid": "hotpot_7251", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "1,840 students", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_654", "setting": "no_context", "model": "gpt-5.5", "pred": "Dundee Canal", "gold": "Dundee Canal", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_654", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Dundee Canal", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6395", "setting": "no_context", "model": "gpt-5.5", "pred": "", "gold": "Jane", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6395", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Jane", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1979", "setting": "no_context", "model": "gpt-5.5", "pred": "The Most Dangerous Game", "gold": "The Most Dangerous Game", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_1979", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "The Most Dangerous Game", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2395", "setting": "no_context", "model": "gpt-5.5", "pred": "England", "gold": "North West England", "em": 0.0, "f1": 0.5}
+{"qid": "hotpot_2395", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "North West England", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3048", "setting": "no_context", "model": "gpt-5.5", "pred": "no", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_3048", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4120", "setting": "no_context", "model": "gpt-5.5", "pred": "Poaceae", "gold": "family", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4120", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "family", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5848", "setting": "no_context", "model": "gpt-5.5", "pred": "yes", "gold": "yes", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_5848", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "yes", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2923", "setting": "no_context", "model": "gpt-5.5", "pred": "", "gold": "St. Patrick's Day in 1988", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2923", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "St. Patrick's Day in 1988", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4913", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Diamond White", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6818", "setting": "no_context", "model": "gpt-5.5", "pred": "Manchester Orchestra", "gold": "Manchester Orchestra", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_6818", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Manchester Orchestra", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_680", "setting": "no_context", "model": "gpt-5.5", "pred": "Perfect Strangers", "gold": "Perfect Strangers", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_680", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Perfect Strangers", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_37", "setting": "no_context", "model": "gpt-5.5", "pred": "World War II", "gold": "World War II", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_37", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "World War II", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3201", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "World War I fighter aircraft.", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6650", "setting": "no_context", "model": "gpt-5.5", "pred": "BMW X1", "gold": "BMW X6", "em": 0.0, "f1": 0.5}
+{"qid": "hotpot_6650", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "BMW X6", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1606", "setting": "no_context", "model": "gpt-5.5", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_1606", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6481", "setting": "no_context", "model": "gpt-5.5", "pred": "Yakuza", "gold": "Yakuza", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_6481", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "Yakuza", "gold": "Yakuza", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_6982", "setting": "no_context", "model": "gpt-5.5", "pred": "oratory", "gold": "filibuster", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6982", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "filibuster", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4536", "setting": "no_context", "model": "gpt-5.5", "pred": "yes", "gold": "yes", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_4536", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "yes", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5693", "setting": "no_context", "model": "gpt-5.5", "pred": "drug war", "gold": "Mexican War on Drugs", "em": 0.0, "f1": 0.3333333333333333}
+{"qid": "hotpot_5693", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Mexican War on Drugs", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4568", "setting": "no_context", "model": "gpt-5.5", "pred": "no", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_4568", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4128", "setting": "no_context", "model": "gpt-5.5", "pred": "The Perfect Storm", "gold": "1991 Perfect Storm", "em": 0.0, "f1": 0.6666666666666666}
+{"qid": "hotpot_4128", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "Perfect Storm", "gold": "1991 Perfect Storm", "em": 0.0, "f1": 0.8}
+{"qid": "hotpot_3340", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Chinese Coffee", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_7365", "setting": "no_context", "model": "gpt-5.5", "pred": "Bob Fosse", "gold": "Robert Louis Fosse", "em": 0.0, "f1": 0.4}
+{"qid": "hotpot_7365", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Robert Louis Fosse", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6623", "setting": "no_context", "model": "gpt-5.5", "pred": "BitInstant", "gold": "BitInstant", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_6623", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "BitInstant", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2667", "setting": "no_context", "model": "gpt-5.5", "pred": "", "gold": "David Patrick Griffin", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2667", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "David Patrick Griffin", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2980", "setting": "no_context", "model": "gpt-5.5", "pred": "Aristotle", "gold": "Aristotle", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_2980", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Aristotle", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1833", "setting": "no_context", "model": "gpt-5.5", "pred": "Small forward", "gold": "small forward", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_1833", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "small forward", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6508", "setting": "no_context", "model": "gpt-5.5", "pred": "PlayStation 4", "gold": "PlayStation 4", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_6508", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "PlayStation 4", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4032", "setting": "no_context", "model": "gpt-5.5", "pred": "Miracle of the White Stallions", "gold": "Miracle of the White Stallions", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_4032", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Miracle of the White Stallions", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6771", "setting": "no_context", "model": "gpt-5.5", "pred": "Saddledome", "gold": "Scotiabank Saddledome", "em": 0.0, "f1": 0.6666666666666666}
+{"qid": "hotpot_6771", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Scotiabank Saddledome", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5203", "setting": "no_context", "model": "gpt-5.5", "pred": "Cool Runnings", "gold": "Cool Runnings", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_5203", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Cool Runnings", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6280", "setting": "no_context", "model": "gpt-5.5", "pred": "Lee County", "gold": "Lee County, Mississippi", "em": 0.0, "f1": 0.8}
+{"qid": "hotpot_6280", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Lee County, Mississippi", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_176", "setting": "no_context", "model": "gpt-5.5", "pred": "ex libris", "gold": "drawings", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_176", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "drawings", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1712", "setting": "no_context", "model": "gpt-5.5", "pred": "Radcliffe College", "gold": "Radcliffe College", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_1712", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Radcliffe College", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3388", "setting": "no_context", "model": "gpt-5.5", "pred": "District of Columbia", "gold": "District of Columbia", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_3388", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "District of Columbia", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2543", "setting": "no_context", "model": "gpt-5.5", "pred": "1979", "gold": "1979", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_2543", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "1979", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2893", "setting": "no_context", "model": "gpt-5.5", "pred": "Kenny Ortega", "gold": "Kenneth John \"Kenny\" Ortega (born April 18, 1950) is an American producer, director, and choreographer.", "em": 0.0, "f1": 0.23529411764705882}
+{"qid": "hotpot_2893", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Kenneth John \"Kenny\" Ortega (born April 18, 1950) is an American producer, director, and choreographer.", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6613", "setting": "no_context", "model": "gpt-5.5", "pred": "2001", "gold": "2001", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_6613", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "2001", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_854", "setting": "no_context", "model": "gpt-5.5", "pred": "Hinduism", "gold": "Hindi", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_854", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Hindi", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4865", "setting": "no_context", "model": "gpt-5.5", "pred": "Battle of Tarawa", "gold": "The Battle of Tarawa", "em": 0.0, "f1": 0.8571428571428571}
+{"qid": "hotpot_4865", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "The Battle of Tarawa", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_102", "setting": "no_context", "model": "gpt-5.5", "pred": "2003", "gold": "2003", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_102", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "2003", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3235", "setting": "no_context", "model": "gpt-5.5", "pred": "Universal Studios Florida", "gold": "Universal Studios Florida", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_3235", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Universal Studios Florida", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5498", "setting": "no_context", "model": "gpt-5.5", "pred": "1968", "gold": "1968", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_5498", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "1968", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1666", "setting": "no_context", "model": "gpt-5.5", "pred": "no", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_1666", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4240", "setting": "no_context", "model": "gpt-5.5", "pred": "Stuart Heisler", "gold": "John Ford", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4240", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "John Ford", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4787", "setting": "no_context", "model": "gpt-5.5", "pred": "yes", "gold": "yes", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_4787", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "yes", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3042", "setting": "no_context", "model": "gpt-5.5", "pred": "Idina Menzel", "gold": "Idina Kim Menzel", "em": 0.0, "f1": 0.8}
+{"qid": "hotpot_3042", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Idina Kim Menzel", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3620", "setting": "no_context", "model": "gpt-5.5", "pred": "10", "gold": "ten episodes", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3620", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "ten episodes", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1611", "setting": "no_context", "model": "gpt-5.5", "pred": "15", "gold": "15th consecutive", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1611", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "15th consecutive", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4233", "setting": "no_context", "model": "gpt-5.5", "pred": "Dancing with the Stars", "gold": "\"Dancing on Ice\" around the world", "em": 0.0, "f1": 0.4}
+{"qid": "hotpot_4233", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "\"Dancing on Ice\" around the world", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5948", "setting": "no_context", "model": "gpt-5.5", "pred": "1", "gold": "two Grammy awards", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5948", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "two Grammy awards", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1011", "setting": "no_context", "model": "gpt-5.5", "pred": "Player of the Year", "gold": "Player of the Year", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_1011", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Player of the Year", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_754", "setting": "no_context", "model": "gpt-5.5", "pred": "Popular Science", "gold": "Girlfriends", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_754", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Girlfriends", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_592", "setting": "no_context", "model": "gpt-5.5", "pred": "2005", "gold": "2005", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_592", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "2005", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5683", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "4,530", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3681", "setting": "no_context", "model": "gpt-5.5", "pred": "Quasimodo", "gold": "Quasimodo", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_3681", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "Quasimodo", "gold": "Quasimodo", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_2703", "setting": "no_context", "model": "gpt-5.5", "pred": "south-west England", "gold": "West Dorset, South West England.", "em": 0.0, "f1": 0.3333333333333333}
+{"qid": "hotpot_2703", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "West Dorset, South West England.", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1419", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Oberkommando der Wehrmacht", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_7382", "setting": "no_context", "model": "gpt-5.5", "pred": "Art Deco", "gold": "Art Deco-style skyscraper", "em": 0.0, "f1": 0.4}
+{"qid": "hotpot_7382", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Art Deco-style skyscraper", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_626", "setting": "no_context", "model": "gpt-5.5", "pred": "665 acres", "gold": "575 acres (2.08 km\u00b2)", "em": 0.0, "f1": 0.3333333333333333}
+{"qid": "hotpot_626", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "575 acres (2.08 km\u00b2)", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2806", "setting": "no_context", "model": "gpt-5.5", "pred": "Liu Ye, Leon Lai, Yu Shaoqun", "gold": "Liu Ye, Yu Shaoqun and Leon Lai", "em": 0.0, "f1": 0.923076923076923}
+{"qid": "hotpot_2806", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Liu Ye, Yu Shaoqun and Leon Lai", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4502", "setting": "no_context", "model": "gpt-5.5", "pred": "Pompano Beach", "gold": "Hollywood, Florida", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4502", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Hollywood, Florida", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_41", "setting": "no_context", "model": "gpt-5.5", "pred": "Mumbai", "gold": "Mumbai", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_41", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Mumbai", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6937", "setting": "no_context", "model": "gpt-5.5", "pred": "Hungary", "gold": "Hungary", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_6937", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Hungary", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2778", "setting": "no_context", "model": "gpt-5.5", "pred": "Mike Holmgren", "gold": "Mike Holmgren", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_2778", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Mike Holmgren", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4589", "setting": "no_context", "model": "gpt-5.5", "pred": "Jean-Marc Vall\u00e9e", "gold": "Jean-Marc Vall\u00e9e", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_4589", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Jean-Marc Vall\u00e9e", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2724", "setting": "no_context", "model": "gpt-5.5", "pred": "N.I.B.", "gold": "N.I.B.", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_2724", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "N.I.B.", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5148", "setting": "no_context", "model": "gpt-5.5", "pred": "Theodor Adorno", "gold": "Theodor W. Adorno", "em": 0.0, "f1": 0.8}
+{"qid": "hotpot_5148", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Theodor W. Adorno", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4438", "setting": "no_context", "model": "gpt-5.5", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_4438", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5597", "setting": "no_context", "model": "gpt-5.5", "pred": "1975", "gold": "1976", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5597", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "1976", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4851", "setting": "no_context", "model": "gpt-5.5", "pred": "Italian", "gold": "Danish", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4851", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Danish", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6672", "setting": "no_context", "model": "gpt-5.5", "pred": "most awarded female artist", "gold": "most awarded female act of all-time", "em": 0.0, "f1": 0.6}
+{"qid": "hotpot_6672", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "most awarded female act of all-time", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1654", "setting": "no_context", "model": "gpt-5.5", "pred": "sailor", "gold": "Gondorian soldier", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1654", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Gondorian soldier", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3696", "setting": "no_context", "model": "gpt-5.5", "pred": "1993", "gold": "1993", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_3696", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "1993", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_797", "setting": "no_context", "model": "gpt-5.5", "pred": "science fiction comedy", "gold": "play-by-post role-playing game", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_797", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "play-by-post role-playing game", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4993", "setting": "no_context", "model": "gpt-5.5", "pred": "Barney Fife", "gold": "Barney Fife", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_4993", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Barney Fife", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1260", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Fade to Black", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1865", "setting": "no_context", "model": "gpt-5.5", "pred": "The Beatles", "gold": "Beatles", "em": 0.0, "f1": 0.6666666666666666}
+{"qid": "hotpot_1865", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Beatles", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2907", "setting": "no_context", "model": "gpt-5.5", "pred": "June 22, 1953", "gold": "June 22, 1953", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_2907", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "June 22, 1953", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3859", "setting": "no_context", "model": "gpt-5.5", "pred": "Third baseman", "gold": "third baseman", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_3859", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "third baseman", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3222", "setting": "no_context", "model": "gpt-5.5", "pred": "8 teams", "gold": "eight", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3222", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "eight", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2022", "setting": "no_context", "model": "gpt-5.5", "pred": "Haitian Revolution", "gold": "the Haitian Revolution", "em": 0.0, "f1": 0.8}
+{"qid": "hotpot_2022", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "the Haitian Revolution", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_350", "setting": "no_context", "model": "gpt-5.5", "pred": "September 8, 2017", "gold": "September 8, 2017", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_350", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "September 8, 2017", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3962", "setting": "no_context", "model": "gpt-5.5", "pred": "John McClane", "gold": "John McClane", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_3962", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "John McClane", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6087", "setting": "no_context", "model": "gpt-5.5", "pred": "", "gold": "Ufa, Russia", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6087", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Ufa, Russia", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3352", "setting": "no_context", "model": "gpt-5.5", "pred": "Crocosmia", "gold": "Crocosmia", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_3352", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Crocosmia", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_7331", "setting": "no_context", "model": "gpt-5.5", "pred": "Desmond Tutu", "gold": "Desmond Mpilo Tutu", "em": 0.0, "f1": 0.8}
+{"qid": "hotpot_7331", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Desmond Mpilo Tutu", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2877", "setting": "no_context", "model": "gpt-5.5", "pred": "City Hunter", "gold": "Mr. Nice Guy", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2877", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Mr. Nice Guy", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6795", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Neha Sharma", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6536", "setting": "no_context", "model": "gpt-5.5", "pred": "Big Machine Records", "gold": "Big Machine Records", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_6536", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Big Machine Records", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_502", "setting": "no_context", "model": "gpt-5.5", "pred": "189", "gold": "219", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_502", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "219", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1770", "setting": "no_context", "model": "gpt-5.5", "pred": "Mstislav Rostropovich", "gold": "Daniil Shafran", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1770", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Daniil Shafran", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6681", "setting": "no_context", "model": "gpt-5.5", "pred": "Retina displays", "gold": "Retina", "em": 0.0, "f1": 0.6666666666666666}
+{"qid": "hotpot_6681", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Retina", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_682", "setting": "no_context", "model": "gpt-5.5", "pred": "", "gold": "Chelsea Does", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_682", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Chelsea Does", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4084", "setting": "no_context", "model": "gpt-5.5", "pred": "Benny Andersson", "gold": "Benny Andersson", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_4084", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Benny Andersson", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_283", "setting": "no_context", "model": "gpt-5.5", "pred": "Sacred Planet", "gold": "Sacred Planet", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_283", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Sacred Planet", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6498", "setting": "no_context", "model": "gpt-5.5", "pred": "1,013,322 acres", "gold": "over 1 million", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6498", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "over 1 million", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4440", "setting": "no_context", "model": "gpt-5.5", "pred": "", "gold": "1919", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4440", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "1919", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1930", "setting": "no_context", "model": "gpt-5.5", "pred": "The Wind in the Willows", "gold": "The Wind in the Willows", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_1930", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "The Wind in the Willows", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6096", "setting": "no_context", "model": "gpt-5.5", "pred": "LA Galaxy", "gold": "LA Galaxy", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_6096", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "LA Galaxy", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6380", "setting": "no_context", "model": "gpt-5.5", "pred": "", "gold": "fifty-word", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6380", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "fifty-word", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1090", "setting": "no_context", "model": "gpt-5.5", "pred": "", "gold": "EN World web site", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1090", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "EN World web site", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2203", "setting": "no_context", "model": "gpt-5.5", "pred": "7", "gold": "seven", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2203", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "seven", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6698", "setting": "no_context", "model": "gpt-5.5", "pred": "Miles Fitzalan-Howard", "gold": "Miles Fitzalan-Howard, 17th Duke of Norfolk", "em": 0.0, "f1": 0.5}
+{"qid": "hotpot_6698", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Miles Fitzalan-Howard, 17th Duke of Norfolk", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2078", "setting": "no_context", "model": "gpt-5.5", "pred": "Yes", "gold": "yes", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_2078", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "yes", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2262", "setting": "no_context", "model": "gpt-5.5", "pred": "yes", "gold": "yes", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_2262", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "yes", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4157", "setting": "no_context", "model": "gpt-5.5", "pred": "George Bernard Shaw", "gold": "George Bernard Shaw", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_4157", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "George Bernard Shaw", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4544", "setting": "no_context", "model": "gpt-5.5", "pred": "Las Vegas Boulevard", "gold": "Las Vegas Boulevard", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_4544", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Las Vegas Boulevard", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_752", "setting": "no_context", "model": "gpt-5.5", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_752", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1368", "setting": "no_context", "model": "gpt-5.5", "pred": "English", "gold": "English-language", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1368", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "English-language", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_779", "setting": "no_context", "model": "gpt-5.5", "pred": "Bourbon County", "gold": "Bourbon County", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_779", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Bourbon County", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_7306", "setting": "no_context", "model": "gpt-5.5", "pred": "1984\u20131985", "gold": "1984 to 1985", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_7306", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "1984 to 1985", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6038", "setting": "no_context", "model": "gpt-5.5", "pred": "", "gold": "G20", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6038", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "G20", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3284", "setting": "no_context", "model": "gpt-5.5", "pred": "five", "gold": "five", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_3284", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "five", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_7386", "setting": "no_context", "model": "gpt-5.5", "pred": "Detroit, Michigan", "gold": "Detroit, Michigan", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_7386", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Detroit, Michigan", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3246", "setting": "no_context", "model": "gpt-5.5", "pred": "Manchester Metrolink", "gold": "Greater Manchester's Metrolink", "em": 0.0, "f1": 0.4}
+{"qid": "hotpot_3246", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Greater Manchester's Metrolink", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4947", "setting": "no_context", "model": "gpt-5.5", "pred": "Madhavrao II", "gold": "1st Earl Grosvenor", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4947", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "1st Earl Grosvenor", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6111", "setting": "no_context", "model": "gpt-5.5", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_6111", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5135", "setting": "no_context", "model": "gpt-5.5", "pred": "Kim Yoon-seok and Ha Jung-woo", "gold": "Kim Yoon-seok and Ha Jung-woo", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_5135", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Kim Yoon-seok and Ha Jung-woo", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1498", "setting": "no_context", "model": "gpt-5.5", "pred": "Yorgos Lanthimos", "gold": "Yorgos Lanthimos", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_1498", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Yorgos Lanthimos", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_98", "setting": "no_context", "model": "gpt-5.5", "pred": "Beijing", "gold": "Beijing", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_98", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Beijing", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_27", "setting": "no_context", "model": "gpt-5.5", "pred": "yes", "gold": "yes", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_27", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "yes", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3507", "setting": "no_context", "model": "gpt-5.5", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_3507", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5286", "setting": "no_context", "model": "gpt-5.5", "pred": "Blackpool F.C.", "gold": "Blackpool Football Club", "em": 0.0, "f1": 0.4}
+{"qid": "hotpot_5286", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Blackpool Football Club", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5110", "setting": "no_context", "model": "gpt-5.5", "pred": "Finn", "gold": "Shohola Falls", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5110", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Shohola Falls", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5189", "setting": "no_context", "model": "gpt-5.5", "pred": "Life Is a Minestrone", "gold": "Life Is a Minestrone", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_5189", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Life Is a Minestrone", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5969", "setting": "no_context", "model": "gpt-5.5", "pred": "Westlake Recording Studios", "gold": "at Westlake Recording Studios in Los Angeles", "em": 0.0, "f1": 0.6}
+{"qid": "hotpot_5969", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "at Westlake Recording Studios in Los Angeles", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1316", "setting": "no_context", "model": "gpt-5.5", "pred": "Great Neck, New York", "gold": "New York, United States", "em": 0.0, "f1": 0.5}
+{"qid": "hotpot_1316", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "New York, United States", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6905", "setting": "no_context", "model": "gpt-5.5", "pred": "", "gold": "between 7,500 and 40,000", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6905", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "between 7,500 and 40,000", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2919", "setting": "no_context", "model": "gpt-5.5", "pred": "Arsenal", "gold": "Arsenal", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_2919", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Arsenal", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5368", "setting": "no_context", "model": "gpt-5.5", "pred": "yes", "gold": "yes", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_5368", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "yes", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4767", "setting": "no_context", "model": "gpt-5.5", "pred": "American Jewish Historical Society", "gold": "YIVO", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4767", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "YIVO", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_995", "setting": "no_context", "model": "gpt-5.5", "pred": "William Shakespeare", "gold": "William Shakespeare", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_995", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "William Shakespeare", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_567", "setting": "no_context", "model": "gpt-5.5", "pred": "Las Vegas Sands", "gold": "Las Vegas Sands company.", "em": 0.0, "f1": 0.8571428571428571}
+{"qid": "hotpot_567", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Las Vegas Sands company.", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_400", "setting": "no_context", "model": "gpt-5.5", "pred": "", "gold": "King George IV", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_400", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "King George IV", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1834", "setting": "no_context", "model": "gpt-5.5", "pred": "historic district", "gold": "business district", "em": 0.0, "f1": 0.5}
+{"qid": "hotpot_1834", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "business district", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_7336", "setting": "no_context", "model": "gpt-5.5", "pred": "Berklee College of Music", "gold": "Berklee College of Music", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_7336", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Berklee College of Music", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3411", "setting": "no_context", "model": "gpt-5.5", "pred": "Gavin Newsom", "gold": "Mark Dayton", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3411", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Mark Dayton", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4183", "setting": "no_context", "model": "gpt-5.5", "pred": "", "gold": "Emilia Fox", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4183", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Emilia Fox", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_7203", "setting": "no_context", "model": "gpt-5.5", "pred": "Yoo Seung-ho", "gold": "Yoo Seung-ho", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_7203", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Yoo Seung-ho", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_7215", "setting": "no_context", "model": "gpt-5.5", "pred": "James Lapine", "gold": "James Elliot Lapine", "em": 0.0, "f1": 0.8}
+{"qid": "hotpot_7215", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "James Elliot Lapine", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1710", "setting": "no_context", "model": "gpt-5.5", "pred": "O.T. Genasis", "gold": "O.T. Genasis", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_1710", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "O.T. Genasis", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1597", "setting": "no_context", "model": "gpt-5.5", "pred": "", "gold": "BBC", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1597", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "BBC", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1249", "setting": "no_context", "model": "gpt-5.5", "pred": "Tennis", "gold": "tennis", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_1249", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "tennis", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3192", "setting": "no_context", "model": "gpt-5.5", "pred": "October 25, 1931", "gold": "born October 25, 1931", "em": 0.0, "f1": 0.8571428571428571}
+{"qid": "hotpot_3192", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "born October 25, 1931", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1660", "setting": "no_context", "model": "gpt-5.5", "pred": "Greg Gorman and Helmut Newton", "gold": "Greg Gorman and Helmut Newton", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_1660", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Greg Gorman and Helmut Newton", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_686", "setting": "no_context", "model": "gpt-5.5", "pred": "", "gold": "Gaius Julius Caesar Augustus Germanicus", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_686", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Gaius Julius Caesar Augustus Germanicus", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6326", "setting": "no_context", "model": "gpt-5.5", "pred": "Matt Groening", "gold": "Matt Groening", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_6326", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Matt Groening", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4230", "setting": "no_context", "model": "gpt-5.5", "pred": "Yes", "gold": "yes", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_4230", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "yes", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3229", "setting": "no_context", "model": "gpt-5.5", "pred": "Rocky Mountain Institute", "gold": "Rocky Mountain Institute", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_3229", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Rocky Mountain Institute", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4056", "setting": "no_context", "model": "gpt-5.5", "pred": "The Tempest", "gold": "The Tempest", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_4056", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "The Tempest", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_2481", "setting": "no_context", "model": "gpt-5.5", "pred": "Yes", "gold": "yes", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_2481", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "yes", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1724", "setting": "no_context", "model": "gpt-5.5", "pred": "1982", "gold": "1983", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1724", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "1983", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_6656", "setting": "no_context", "model": "gpt-5.5", "pred": "Arthur Freed", "gold": "Arthur Freed", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_6656", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Arthur Freed", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_1484", "setting": "no_context", "model": "gpt-5.5", "pred": "The Longest Yard", "gold": "The Longest Yard", "em": 1.0, "f1": 1.0}
+{"qid": "hotpot_1484", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "The Longest Yard", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3153", "setting": "no_context", "model": "gpt-5.5", "pred": "Patrick Rossini", "gold": "Andrea Locatelli", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_3153", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Andrea Locatelli", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5760", "setting": "no_context", "model": "gpt-5.5", "pred": "Italian", "gold": "Dutch", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_5760", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "Dutch", "em": 0.0, "f1": 0.0}
+{"qid": "hotpot_4970", "setting": "no_context", "model": "gpt-5.5", "pred": "37.5 miles", "gold": "37.5", "em": 0.0, "f1": 0.6666666666666666}
+{"qid": "hotpot_4970", "setting": "shuffled_context", "model": "gpt-5.5", "pred": "insufficient evidence", "gold": "37.5", "em": 0.0, "f1": 0.0}

@@ -1,0 +1,51 @@
+system_id: s2_pure_full
+role: S2_PURE_RELAXED_THRESHOLD
+description: |
+  Pure hard-negative LoRA with the paper's relaxed tau=0.005 setting.
+  The released t02 artifact has no non-zero hard-negative scores below 0.02,
+  so both tau=0.005 and tau=0.02 select the same 6,343-row cohort.
+
+model:
+  base: lightonai/GTE-ModernColBERT-v1
+  library: pylate
+  head_variant: disabled
+  max_query_length: 64
+  max_doc_length: 8192
+
+lora:
+  enabled: true
+  r: 16
+  alpha: 32
+  dropout: 0.1
+  target_modules: [Wqkv, Wo]
+  bias: none
+  task_type: FEATURE_EXTRACTION
+
+training:
+  data:
+    triples_path: data/train/dochop_qa_triples_t02.jsonl
+    filter_hard_neg_only: true
+    hard_neg_threshold: 0.005
+    hard_neg_top_k: 1
+    random_neg_k: 0
+  loss: contrastive
+  optimizer: adamw
+  learning_rate: 3.0e-5
+  warmup_steps: 200
+  num_epochs: 3
+  per_device_batch_size: 8
+  gradient_accumulation_steps: 4
+  seed: 43
+
+eval:
+  primary_split: n500_mixed
+  top_k: 20
+  metrics: [section_recall_at_5, doc_recall_at_5, section_recall_at_10]
+
+hardware:
+  target_gpu: rtx_4090_24gb
+  mixed_precision: bf16
+
+output:
+  dir: runs/s2_pure_full/
+  save_lora_adapter: true

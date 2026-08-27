@@ -1,0 +1,40 @@
+{
+  "precision": {
+    "n": 50,
+    "precision_A": 0.85,
+    "precision_B": 0.85,
+    "precision_merged": 0.85,
+    "precision_95ci": [
+      0.795,
+      0.905
+    ],
+    "cohens_kappa": 0.21798631476050845,
+    "label_hist_A": {
+      "CORRECT": 36,
+      "PARTIAL": 13,
+      "INCORRECT": 1
+    },
+    "label_hist_B": {
+      "CORRECT": 37,
+      "PARTIAL": 11,
+      "INCORRECT": 2
+    }
+  },
+  "recall": {
+    "n_passages": 25,
+    "recall_mean": 0.7947759456245697,
+    "recall_95ci": [
+      0.7625120605026658,
+      0.8279118593753503
+    ],
+    "avg_missing_A": 4.28,
+    "avg_missing_B": 4.44
+  },
+  "meta": {
+    "timestamp": "2026-04-21 12:36:54 CST",
+    "input": "openie_results_ner_claude-sonnet-4-6.json",
+    "temp_a": 0.0,
+    "temp_b": 0.3,
+    "seed": 20260421
+  }
+}

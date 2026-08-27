@@ -1,0 +1,43 @@
+### Ablations A1–A4 (paper 2 Table 2)
+### Each entry overrides fields from the base s1_stali.yaml config.
+
+inherits: s1_stali.yaml
+
+A1_head_variants:
+  description: "Compare section-type head designs — isolates learning vs fixed prior"
+  variants:
+    a1_per_type_scalar:
+      model: {head_variant: per_type_scalar}
+    a1_query_conditioned:
+      model: {head_variant: query_conditioned}
+    a1_hand_tuned_prior:
+      model: {head_variant: hand_tuned}
+      training: {num_epochs: 0}  # no training; uses fixed weights matching ITSR
+
+A2_hard_negatives:
+  description: "Training-data mix ablation (tests H1a)"
+  variants:
+    a2_random_only:
+      training: {data: {hard_neg_top_k: 0, random_neg_k: 15}}
+    a2_hard_only:
+      training: {data: {hard_neg_top_k: 15, random_neg_k: 0}}
+    a2_mixed:
+      training: {data: {hard_neg_top_k: 10, random_neg_k: 5}}  # main STALI recipe
+
+A3_lora_rank:
+  description: "Learning-capacity ablation"
+  variants:
+    a3_r8:
+      lora: {r: 8, alpha: 16}
+    a3_r16:
+      lora: {r: 16, alpha: 32}  # main
+    a3_r32:
+      lora: {r: 32, alpha: 64}
+
+A4_context_length:
+  description: "Tests the long-context argument — train at 512 ctx vs 8192 ctx"
+  variants:
+    a4_ctx_512:
+      model: {max_doc_length: 512}
+    a4_ctx_8192:
+      model: {max_doc_length: 8192}  # main

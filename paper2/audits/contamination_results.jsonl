@@ -1,0 +1,397 @@
+{"qid": "831", "setting": "no_context", "pred": "consistent", "gold": "Consistent", "em": 1.0, "f1": 1.0}
+{"qid": "831", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Consistent", "em": 0.0, "f1": 0.0}
+{"qid": "1960", "setting": "no_context", "pred": "No", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "1960", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "188", "setting": "no_context", "pred": "Yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "188", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "792", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "792", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "222", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"qid": "222", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Google", "em": 0.0, "f1": 0.0}
+{"qid": "314", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "314", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1604", "setting": "no_context", "pred": "unknown", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "1604", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "1063", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "1063", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "325", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"qid": "325", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Google", "em": 0.0, "f1": 0.0}
+{"qid": "1698", "setting": "no_context", "pred": "yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1698", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "2042", "setting": "no_context", "pred": "Yes", "gold": "No", "em": 0.0, "f1": 0.0}
+{"qid": "2042", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "No", "em": 0.0, "f1": 0.0}
+{"qid": "2111", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"qid": "2111", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Google", "em": 0.0, "f1": 0.0}
+{"qid": "417", "setting": "no_context", "pred": "deny consequences", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "417", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1090", "setting": "no_context", "pred": "ChatGPT", "gold": "ChatGPT", "em": 1.0, "f1": 1.0}
+{"qid": "1090", "setting": "shuffled_context", "pred": "ChatGPT", "gold": "ChatGPT", "em": 1.0, "f1": 1.0}
+{"qid": "2427", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "2427", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "265", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "265", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "1874", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "1874", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "821", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1065", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "1065", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "1296", "setting": "no_context", "pred": "after", "gold": "Before", "em": 0.0, "f1": 0.0}
+{"qid": "1296", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Before", "em": 0.0, "f1": 0.0}
+{"qid": "2255", "setting": "no_context", "pred": "Golf", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "2255", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "1628", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "1628", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "1506", "setting": "no_context", "pred": "Escorts Kubota", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "1506", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "1974", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "1974", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "17", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "17", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "2362", "setting": "no_context", "pred": "no", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "2362", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1273", "setting": "no_context", "pred": "consistent", "gold": "Consistent", "em": 1.0, "f1": 1.0}
+{"qid": "1273", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Consistent", "em": 0.0, "f1": 0.0}
+{"qid": "1147", "setting": "no_context", "pred": "O", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "1147", "setting": "shuffled_context", "pred": "T", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "1247", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "1247", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "1073", "setting": "no_context", "pred": "Yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1073", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "635", "setting": "no_context", "pred": "Online sportsbooks", "gold": "Sportsbooks", "em": 0.0, "f1": 0.6666666666666666}
+{"qid": "635", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sportsbooks", "em": 0.0, "f1": 0.0}
+{"qid": "819", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "819", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "1120", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "1120", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "168", "setting": "no_context", "pred": "Yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "168", "setting": "shuffled_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "1440", "setting": "no_context", "pred": "Minnesota Vikings", "gold": "Minnesota Vikings", "em": 1.0, "f1": 1.0}
+{"qid": "1440", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Minnesota Vikings", "em": 0.0, "f1": 0.0}
+{"qid": "74", "setting": "no_context", "pred": "Everton", "gold": "Everton Football Club", "em": 0.0, "f1": 0.5}
+{"qid": "74", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Everton Football Club", "em": 0.0, "f1": 0.0}
+{"qid": "2203", "setting": "no_context", "pred": "A", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "2203", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "301", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "301", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1146", "setting": "no_context", "pred": "Mike Lynch", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "1146", "setting": "shuffled_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "769", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"qid": "769", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Google", "em": 0.0, "f1": 0.0}
+{"qid": "1880", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "1880", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "1099", "setting": "no_context", "pred": "Amazon", "gold": "Amazon", "em": 1.0, "f1": 1.0}
+{"qid": "1099", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Amazon", "em": 0.0, "f1": 0.0}
+{"qid": "786", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "786", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "926", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "926", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "2016", "setting": "no_context", "pred": "no", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "2016", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "703", "setting": "no_context", "pred": "Beeper Mini", "gold": "Beeper Mini", "em": 1.0, "f1": 1.0}
+{"qid": "703", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Beeper Mini", "em": 0.0, "f1": 0.0}
+{"qid": "713", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "713", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "1668", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "1668", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "916", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "916", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "861", "setting": "no_context", "pred": "no", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "861", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "400", "setting": "no_context", "pred": "yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "400", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "437", "setting": "no_context", "pred": "Yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "437", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "2217", "setting": "no_context", "pred": "Barcelona", "gold": "Manchester United", "em": 0.0, "f1": 0.0}
+{"qid": "2217", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Manchester United", "em": 0.0, "f1": 0.0}
+{"qid": "1553", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "1553", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "213", "setting": "no_context", "pred": "D", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "213", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "1034", "setting": "no_context", "pred": "Juliet", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "1034", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "1526", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "1526", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "649", "setting": "no_context", "pred": "Ajith Kumar", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "649", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "576", "setting": "no_context", "pred": "B", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "576", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "1802", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "1802", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "940", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "940", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "1886", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"qid": "1886", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Google", "em": 0.0, "f1": 0.0}
+{"qid": "148", "setting": "no_context", "pred": "yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "148", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "805", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "805", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "9", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"qid": "9", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Google", "em": 0.0, "f1": 0.0}
+{"qid": "422", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "422", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "1559", "setting": "no_context", "pred": "Israel", "gold": "Israel", "em": 1.0, "f1": 1.0}
+{"qid": "1559", "setting": "shuffled_context", "pred": "Israel", "gold": "Israel", "em": 1.0, "f1": 1.0}
+{"qid": "972", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "972", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "1900", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "1900", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "2324", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "2324", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "430", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "430", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "2378", "setting": "no_context", "pred": "Yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "2378", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1511", "setting": "no_context", "pred": "5", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "1511", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "1720", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "1720", "setting": "shuffled_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "2064", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"qid": "2064", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Google", "em": 0.0, "f1": 0.0}
+{"qid": "2065", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "2065", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "966", "setting": "no_context", "pred": "yes", "gold": "No", "em": 0.0, "f1": 0.0}
+{"qid": "966", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "No", "em": 0.0, "f1": 0.0}
+{"qid": "1706", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "1088", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "1088", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "621", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "621", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "36", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "36", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "11", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "11", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "2245", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "2245", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "1252", "setting": "no_context", "pred": "yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1252", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "2011", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "2011", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "2145", "setting": "no_context", "pred": "n", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "2145", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "1737", "setting": "no_context", "pred": "unknown", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "1737", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "402", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "402", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "2158", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "2158", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "104", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "104", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "333", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "333", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "956", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "956", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "1343", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"qid": "1343", "setting": "shuffled_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"qid": "1059", "setting": "no_context", "pred": "No", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "1059", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "949", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "949", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "431", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"qid": "431", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Google", "em": 0.0, "f1": 0.0}
+{"qid": "476", "setting": "no_context", "pred": "consistent", "gold": "Consistent", "em": 1.0, "f1": 1.0}
+{"qid": "476", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Consistent", "em": 0.0, "f1": 0.0}
+{"qid": "2125", "setting": "no_context", "pred": "Sony", "gold": "Valve", "em": 0.0, "f1": 0.0}
+{"qid": "2125", "setting": "shuffled_context", "pred": "Sony", "gold": "Valve", "em": 0.0, "f1": 0.0}
+{"qid": "1995", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "1995", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "789", "setting": "no_context", "pred": "yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "789", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1151", "setting": "no_context", "pred": "Elon Musk", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "1151", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "1834", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "1834", "setting": "shuffled_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "1188", "setting": "no_context", "pred": "Yes, yes", "gold": "Yes", "em": 0.0, "f1": 1.0}
+{"qid": "1188", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "1773", "setting": "no_context", "pred": "Global Markets", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "1773", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "374", "setting": "no_context", "pred": "Q", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "374", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "1657", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "1657", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "865", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "865", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "1982", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "1982", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "782", "setting": "no_context", "pred": "No", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "782", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "1597", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"qid": "1597", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Google", "em": 0.0, "f1": 0.0}
+{"qid": "152", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "152", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "1981", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "1981", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "306", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "306", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "503", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "503", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "1755", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "1755", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "2484", "setting": "no_context", "pred": "Yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "2484", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "2170", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "2170", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "800", "setting": "no_context", "pred": "unknown", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "800", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "121", "setting": "no_context", "pred": "Amazon", "gold": "Amazon", "em": 1.0, "f1": 1.0}
+{"qid": "121", "setting": "shuffled_context", "pred": "Amazon", "gold": "Amazon", "em": 1.0, "f1": 1.0}
+{"qid": "1242", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "1242", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "23", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "23", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1383", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "1383", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "2450", "setting": "no_context", "pred": "N", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "2450", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "1166", "setting": "no_context", "pred": "Uber", "gold": "Uber", "em": 1.0, "f1": 1.0}
+{"qid": "1166", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Uber", "em": 0.0, "f1": 0.0}
+{"qid": "1338", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "1338", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "2035", "setting": "no_context", "pred": "Both", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "2035", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1510", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "1510", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1032", "setting": "no_context", "pred": "unknown", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "1032", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "673", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "673", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "1659", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "1659", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "1654", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "1654", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "4", "setting": "no_context", "pred": "Caesars Sportsbook", "gold": "Caesars Sportsbook", "em": 1.0, "f1": 1.0}
+{"qid": "4", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Caesars Sportsbook", "em": 0.0, "f1": 0.0}
+{"qid": "70", "setting": "no_context", "pred": "Amazon", "gold": "Amazon", "em": 1.0, "f1": 1.0}
+{"qid": "70", "setting": "shuffled_context", "pred": "Amazon", "gold": "Amazon", "em": 1.0, "f1": 1.0}
+{"qid": "2475", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "2475", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "1349", "setting": "no_context", "pred": "Different versions", "gold": "Different stages or versions", "em": 0.0, "f1": 0.6666666666666666}
+{"qid": "1349", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Different stages or versions", "em": 0.0, "f1": 0.0}
+{"qid": "331", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"qid": "331", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Google", "em": 0.0, "f1": 0.0}
+{"qid": "1307", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "1601", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "1601", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "1763", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "1763", "setting": "shuffled_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "2386", "setting": "no_context", "pred": "PETA", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "2386", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "722", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "722", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "2304", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "2304", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "294", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "294", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "939", "setting": "no_context", "pred": "similar potential", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "939", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "685", "setting": "no_context", "pred": "Department of Homeland Security", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "685", "setting": "shuffled_context", "pred": "Homeland Security", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "723", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "723", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "2054", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "2054", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1454", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "1454", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1391", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "1391", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "2375", "setting": "no_context", "pred": "yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "2375", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1060", "setting": "no_context", "pred": "sportsbooks", "gold": "Sportsbooks.", "em": 1.0, "f1": 1.0}
+{"qid": "1060", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sportsbooks.", "em": 0.0, "f1": 0.0}
+{"qid": "728", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "728", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "2193", "setting": "no_context", "pred": "unknown", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "2193", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "1434", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "1434", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1724", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"qid": "1724", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Google", "em": 0.0, "f1": 0.0}
+{"qid": "2374", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "2374", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "1618", "setting": "no_context", "pred": "M", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "1618", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "65", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"qid": "65", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Google", "em": 0.0, "f1": 0.0}
+{"qid": "2302", "setting": "no_context", "pred": "Sam Altman", "gold": "Sam Altman", "em": 1.0, "f1": 1.0}
+{"qid": "2302", "setting": "shuffled_context", "pred": "Sam Altman", "gold": "Sam Altman", "em": 1.0, "f1": 1.0}
+{"qid": "72", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "72", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "645", "setting": "no_context", "pred": "Yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "645", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1189", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "1189", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1525", "setting": "no_context", "pred": "Yes", "gold": "True", "em": 0.0, "f1": 0.0}
+{"qid": "1525", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "True", "em": 0.0, "f1": 0.0}
+{"qid": "1488", "setting": "no_context", "pred": "M", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "1488", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "1708", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "1708", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1537", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "1537", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "743", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "743", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "1049", "setting": "no_context", "pred": "B", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "1049", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "1969", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "1969", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "2022", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "2022", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "982", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "982", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1046", "setting": "no_context", "pred": "StackPath", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "1046", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "2123", "setting": "no_context", "pred": "Remained consistent", "gold": "Consistent", "em": 0.0, "f1": 0.6666666666666666}
+{"qid": "2123", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Consistent", "em": 0.0, "f1": 0.0}
+{"qid": "50", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "50", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "230", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "230", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "327", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "327", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "1476", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "1476", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "159", "setting": "no_context", "pred": "India", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "159", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "1978", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "1978", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "2360", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "2360", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1323", "setting": "no_context", "pred": "Sam Bankman-Fried", "gold": "Sam Bankman-Fried", "em": 1.0, "f1": 1.0}
+{"qid": "1323", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Bankman-Fried", "em": 0.0, "f1": 0.0}
+{"qid": "930", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"qid": "930", "setting": "shuffled_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"qid": "1079", "setting": "no_context", "pred": "yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "1079", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "2387", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "2387", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "2127", "setting": "no_context", "pred": "J", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "2127", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "299", "setting": "no_context", "pred": "No", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "299", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "466", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "466", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "2412", "setting": "no_context", "pred": "Sam Altman", "gold": "Sam Altman", "em": 1.0, "f1": 1.0}
+{"qid": "2412", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Sam Altman", "em": 0.0, "f1": 0.0}
+{"qid": "455", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"qid": "455", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Google", "em": 0.0, "f1": 0.0}
+{"qid": "1013", "setting": "no_context", "pred": "Yes", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1013", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "1715", "setting": "no_context", "pred": "Described differently", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "1715", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "1503", "setting": "no_context", "pred": "TikTok", "gold": "TikTok", "em": 1.0, "f1": 1.0}
+{"qid": "1503", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "TikTok", "em": 0.0, "f1": 0.0}
+{"qid": "1624", "setting": "no_context", "pred": "No", "gold": "no", "em": 1.0, "f1": 1.0}
+{"qid": "1624", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "2336", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"qid": "2336", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Google", "em": 0.0, "f1": 0.0}
+{"qid": "607", "setting": "no_context", "pred": "Yes", "gold": "Yes", "em": 1.0, "f1": 1.0}
+{"qid": "607", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Yes", "em": 0.0, "f1": 0.0}
+{"qid": "1217", "setting": "no_context", "pred": "consistent", "gold": "Consistent", "em": 1.0, "f1": 1.0}
+{"qid": "1217", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Consistent", "em": 0.0, "f1": 0.0}
+{"qid": "178", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"qid": "178", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Google", "em": 0.0, "f1": 0.0}
+{"qid": "267", "setting": "no_context", "pred": "X", "gold": "Insufficient information.", "em": 0.0, "f1": 0.0}
+{"qid": "267", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Insufficient information.", "em": 0.0, "f1": 0.5}
+{"qid": "993", "setting": "no_context", "pred": "Google", "gold": "Google", "em": 1.0, "f1": 1.0}
+{"qid": "993", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "Google", "em": 0.0, "f1": 0.0}
+{"qid": "2133", "setting": "no_context", "pred": "", "gold": "no", "em": 0.0, "f1": 0.0}
+{"qid": "2133", "setting": "shuffled_context", "pred": "insufficient evidence", "gold": "no", "em": 0.0, "f1": 0.0}

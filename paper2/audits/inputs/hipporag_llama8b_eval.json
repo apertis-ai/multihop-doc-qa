@@ -1,0 +1,4535 @@
+{
+  "n_eval": 500,
+  "n_paired": 500,
+  "reader": "llama-3.1-8b-instruct",
+  "hipporag_llama8b": {
+    "em": 0.39,
+    "f1": 0.45287326070248657
+  },
+  "stali_e6_llama8b": {
+    "em": 0.344,
+    "f1": 0.4163320586820587
+  },
+  "paired_delta": {
+    "em": {
+      "mean": 0.046,
+      "ci": [
+        0.01,
+        0.082
+      ],
+      "p": 0.0162,
+      "cohen_d": 0.10957461045317073
+    },
+    "f1": {
+      "mean": 0.036541202020427904,
+      "ci": [
+        0.0011401805638497481,
+        0.07237660414259918
+      ],
+      "p": 0.0446,
+      "cohen_d": 0.0889355125173569
+    }
+  },
+  "rows": [
+    {
+      "qid": "0",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2332
+    },
+    {
+      "qid": "3",
+      "question_type": "comparison_query",
+      "pred": "No.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2268
+    },
+    {
+      "qid": "4",
+      "question_type": "inference_query",
+      "pred": "Caesars Sportsbook",
+      "gold": "Caesars Sportsbook",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2659
+    },
+    {
+      "qid": "7",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2542
+    },
+    {
+      "qid": "9",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2219
+    },
+    {
+      "qid": "10",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2422
+    },
+    {
+      "qid": "11",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2409
+    },
+    {
+      "qid": "17",
+      "question_type": "temporal_query",
+      "pred": "No.",
+      "gold": "no",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2285
+    },
+    {
+      "qid": "23",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2453
+    },
+    {
+      "qid": "24",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2274
+    },
+    {
+      "qid": "34",
+      "question_type": "temporal_query",
+      "pred": "no",
+      "gold": "no",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2288
+    },
+    {
+      "qid": "36",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2579
+    },
+    {
+      "qid": "46",
+      "question_type": "comparison_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2301
+    },
+    {
+      "qid": "49",
+      "question_type": "null_query",
+      "pred": "I'm assuming context for Suhana Khan is only in the three provided articles, but none specifically mention Suhana Khan's debut film or its screening in a festival, so I can't find the answer.\n\nSince the answer is not present, I'll provide the result based on the context provided: insufficient evidence.",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.04347826086956522,
+      "tokens": 2446
+    },
+    {
+      "qid": "50",
+      "question_type": "temporal_query",
+      "pred": "Yes",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2287
+    },
+    {
+      "qid": "56",
+      "question_type": "inference_query",
+      "pred": "Tyreek Hill",
+      "gold": "Tyreek Hill",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2648
+    },
+    {
+      "qid": "61",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2433
+    },
+    {
+      "qid": "65",
+      "question_type": "inference_query",
+      "pred": "Google.",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2230
+    },
+    {
+      "qid": "70",
+      "question_type": "inference_query",
+      "pred": "Amazon",
+      "gold": "Amazon",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2401
+    },
+    {
+      "qid": "71",
+      "question_type": "comparison_query",
+      "pred": "No.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2607
+    },
+    {
+      "qid": "72",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2423
+    },
+    {
+      "qid": "74",
+      "question_type": "inference_query",
+      "pred": "Everton",
+      "gold": "Everton Football Club",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2492
+    },
+    {
+      "qid": "91",
+      "question_type": "comparison_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2453
+    },
+    {
+      "qid": "97",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2253
+    },
+    {
+      "qid": "98",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Agree",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2320
+    },
+    {
+      "qid": "99",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2356
+    },
+    {
+      "qid": "104",
+      "question_type": "comparison_query",
+      "pred": "No",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2444
+    },
+    {
+      "qid": "110",
+      "question_type": "null_query",
+      "pred": "Insufficient evidence.",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2364
+    },
+    {
+      "qid": "115",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2293
+    },
+    {
+      "qid": "118",
+      "question_type": "inference_query",
+      "pred": "Google.",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2276
+    },
+    {
+      "qid": "119",
+      "question_type": "temporal_query",
+      "pred": "No.",
+      "gold": "no",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2349
+    },
+    {
+      "qid": "121",
+      "question_type": "inference_query",
+      "pred": "Amazon",
+      "gold": "Amazon",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2453
+    },
+    {
+      "qid": "125",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2256
+    },
+    {
+      "qid": "126",
+      "question_type": "inference_query",
+      "pred": "Taylor Swift",
+      "gold": "Taylor Swift",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2362
+    },
+    {
+      "qid": "135",
+      "question_type": "inference_query",
+      "pred": "Binance",
+      "gold": "Binance",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2396
+    },
+    {
+      "qid": "139",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2494
+    },
+    {
+      "qid": "143",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2277
+    },
+    {
+      "qid": "148",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2317
+    },
+    {
+      "qid": "152",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2381
+    },
+    {
+      "qid": "159",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2528
+    },
+    {
+      "qid": "160",
+      "question_type": "null_query",
+      "pred": "I'm sorry, but the provided context paragraphs do not contain any information about a Dunzo funding round or expansion plans.",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.09999999999999999,
+      "tokens": 2295
+    },
+    {
+      "qid": "168",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2386
+    },
+    {
+      "qid": "178",
+      "question_type": "inference_query",
+      "pred": "Google.",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2296
+    },
+    {
+      "qid": "182",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2488
+    },
+    {
+      "qid": "183",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2376
+    },
+    {
+      "qid": "188",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2332
+    },
+    {
+      "qid": "193",
+      "question_type": "comparison_query",
+      "pred": "They propose different engagement strategies.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2383
+    },
+    {
+      "qid": "200",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2296
+    },
+    {
+      "qid": "209",
+      "question_type": "temporal_query",
+      "pred": "No.",
+      "gold": "no",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2288
+    },
+    {
+      "qid": "211",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2432
+    },
+    {
+      "qid": "213",
+      "question_type": "null_query",
+      "pred": "Insufficient evidence.",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2414
+    },
+    {
+      "qid": "215",
+      "question_type": "inference_query",
+      "pred": "Google.",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2239
+    },
+    {
+      "qid": "217",
+      "question_type": "temporal_query",
+      "pred": "yes, consistency was mentioned.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.4,
+      "tokens": 2330
+    },
+    {
+      "qid": "222",
+      "question_type": "inference_query",
+      "pred": "Google.",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2325
+    },
+    {
+      "qid": "224",
+      "question_type": "null_query",
+      "pred": "Shame Conway (also known as Shang-Chi in this context, he's previously starred in Shang-Chi and the Legend of the Ten Rings).",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2453
+    },
+    {
+      "qid": "230",
+      "question_type": "temporal_query",
+      "pred": "No.",
+      "gold": "no",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2400
+    },
+    {
+      "qid": "236",
+      "question_type": "inference_query",
+      "pred": "DALL-E",
+      "gold": "ChatGPT",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2336
+    },
+    {
+      "qid": "252",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2384
+    },
+    {
+      "qid": "263",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2309
+    },
+    {
+      "qid": "265",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2384
+    },
+    {
+      "qid": "267",
+      "question_type": "null_query",
+      "pred": "X",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2325
+    },
+    {
+      "qid": "272",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2607
+    },
+    {
+      "qid": "274",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2343
+    },
+    {
+      "qid": "275",
+      "question_type": "comparison_query",
+      "pred": "No.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2366
+    },
+    {
+      "qid": "282",
+      "question_type": "temporal_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2518
+    },
+    {
+      "qid": "287",
+      "question_type": "temporal_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2442
+    },
+    {
+      "qid": "294",
+      "question_type": "comparison_query",
+      "pred": "Yes",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2384
+    },
+    {
+      "qid": "299",
+      "question_type": "temporal_query",
+      "pred": "Yes",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2408
+    },
+    {
+      "qid": "301",
+      "question_type": "comparison_query",
+      "pred": "Insufficient evidence.",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2307
+    },
+    {
+      "qid": "306",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2280
+    },
+    {
+      "qid": "307",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2581
+    },
+    {
+      "qid": "309",
+      "question_type": "inference_query",
+      "pred": "ChatGPT.",
+      "gold": "ChatGPT",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2401
+    },
+    {
+      "qid": "314",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2406
+    },
+    {
+      "qid": "319",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2399
+    },
+    {
+      "qid": "325",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2280
+    },
+    {
+      "qid": "327",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2452
+    },
+    {
+      "qid": "331",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2270
+    },
+    {
+      "qid": "333",
+      "question_type": "temporal_query",
+      "pred": "No",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2287
+    },
+    {
+      "qid": "334",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2364
+    },
+    {
+      "qid": "345",
+      "question_type": "comparison_query",
+      "pred": "\"insufficient evidence\"",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2235
+    },
+    {
+      "qid": "352",
+      "question_type": "comparison_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2325
+    },
+    {
+      "qid": "354",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2236
+    },
+    {
+      "qid": "363",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2446
+    },
+    {
+      "qid": "364",
+      "question_type": "comparison_query",
+      "pred": "Yes",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2237
+    },
+    {
+      "qid": "366",
+      "question_type": "comparison_query",
+      "pred": "Yes",
+      "gold": "True",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2599
+    },
+    {
+      "qid": "374",
+      "question_type": "null_query",
+      "pred": "Insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2204
+    },
+    {
+      "qid": "387",
+      "question_type": "inference_query",
+      "pred": "Google.",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2289
+    },
+    {
+      "qid": "398",
+      "question_type": "comparison_query",
+      "pred": "No, I don't see any mention of that information in the context you provided.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2482
+    },
+    {
+      "qid": "400",
+      "question_type": "comparison_query",
+      "pred": "Insufficient evidence.",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2627
+    },
+    {
+      "qid": "402",
+      "question_type": "temporal_query",
+      "pred": "\"Yes, in November\"",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2366
+    },
+    {
+      "qid": "404",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2390
+    },
+    {
+      "qid": "412",
+      "question_type": "null_query",
+      "pred": "Lancashire",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2338
+    },
+    {
+      "qid": "417",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2271
+    },
+    {
+      "qid": "422",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2342
+    },
+    {
+      "qid": "430",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2239
+    },
+    {
+      "qid": "431",
+      "question_type": "inference_query",
+      "pred": "Google.",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2341
+    },
+    {
+      "qid": "437",
+      "question_type": "comparison_query",
+      "pred": "Yes",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2558
+    },
+    {
+      "qid": "455",
+      "question_type": "inference_query",
+      "pred": "Google.",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2286
+    },
+    {
+      "qid": "464",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Apple",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2271
+    },
+    {
+      "qid": "466",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2338
+    },
+    {
+      "qid": "476",
+      "question_type": "temporal_query",
+      "pred": "inconsistent",
+      "gold": "Consistent",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2445
+    },
+    {
+      "qid": "479",
+      "question_type": "inference_query",
+      "pred": "Sam Altman",
+      "gold": "Sam Altman",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2370
+    },
+    {
+      "qid": "482",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2310
+    },
+    {
+      "qid": "486",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2472
+    },
+    {
+      "qid": "496",
+      "question_type": "null_query",
+      "pred": "I cannot provide information that mentions a specific individual's personal data, including their initials.",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.13333333333333336,
+      "tokens": 2330
+    },
+    {
+      "qid": "501",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2337
+    },
+    {
+      "qid": "503",
+      "question_type": "temporal_query",
+      "pred": "No change.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2273
+    },
+    {
+      "qid": "504",
+      "question_type": "temporal_query",
+      "pred": "consistent",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2299
+    },
+    {
+      "qid": "507",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2376
+    },
+    {
+      "qid": "518",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2277
+    },
+    {
+      "qid": "530",
+      "question_type": "temporal_query",
+      "pred": "Yes",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2714
+    },
+    {
+      "qid": "533",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2479
+    },
+    {
+      "qid": "534",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2368
+    },
+    {
+      "qid": "537",
+      "question_type": "temporal_query",
+      "pred": "The Railway Men",
+      "gold": "Polygon",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2376
+    },
+    {
+      "qid": "555",
+      "question_type": "temporal_query",
+      "pred": "No",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2627
+    },
+    {
+      "qid": "560",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2708
+    },
+    {
+      "qid": "564",
+      "question_type": "comparison_query",
+      "pred": "Insufficient evidence.",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2302
+    },
+    {
+      "qid": "568",
+      "question_type": "comparison_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2234
+    },
+    {
+      "qid": "573",
+      "question_type": "temporal_query",
+      "pred": "Insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2407
+    },
+    {
+      "qid": "575",
+      "question_type": "inference_query",
+      "pred": "Tyreek Hill",
+      "gold": "Tyreek Hill",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2587
+    },
+    {
+      "qid": "576",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2405
+    },
+    {
+      "qid": "581",
+      "question_type": "inference_query",
+      "pred": "Valve",
+      "gold": "Valve",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2366
+    },
+    {
+      "qid": "583",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2433
+    },
+    {
+      "qid": "599",
+      "question_type": "comparison_query",
+      "pred": "Yes",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2471
+    },
+    {
+      "qid": "607",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2378
+    },
+    {
+      "qid": "614",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2260
+    },
+    {
+      "qid": "615",
+      "question_type": "inference_query",
+      "pred": "Sportsbooks.",
+      "gold": "Sportsbooks",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2344
+    },
+    {
+      "qid": "621",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2202
+    },
+    {
+      "qid": "628",
+      "question_type": "comparison_query",
+      "pred": "Insufficient evidence.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2496
+    },
+    {
+      "qid": "635",
+      "question_type": "inference_query",
+      "pred": "FanDuel.",
+      "gold": "Sportsbooks",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2331
+    },
+    {
+      "qid": "645",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2306
+    },
+    {
+      "qid": "649",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2255
+    },
+    {
+      "qid": "673",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2464
+    },
+    {
+      "qid": "685",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2109
+    },
+    {
+      "qid": "687",
+      "question_type": "null_query",
+      "pred": "C",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2252
+    },
+    {
+      "qid": "689",
+      "question_type": "null_query",
+      "pred": "There is no mention of Volodymyr Zelenskyy or his diplomatic efforts in Europe in the provided context.",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2356
+    },
+    {
+      "qid": "690",
+      "question_type": "temporal_query",
+      "pred": "Insufficient evidence.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2442
+    },
+    {
+      "qid": "699",
+      "question_type": "comparison_query",
+      "pred": "Insufficient evidence.",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2474
+    },
+    {
+      "qid": "702",
+      "question_type": "inference_query",
+      "pred": "Detroit Lions.",
+      "gold": "Minnesota Vikings",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2551
+    },
+    {
+      "qid": "703",
+      "question_type": "inference_query",
+      "pred": "Beeper Mini",
+      "gold": "Beeper Mini",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2331
+    },
+    {
+      "qid": "705",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2397
+    },
+    {
+      "qid": "713",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2416
+    },
+    {
+      "qid": "714",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2170
+    },
+    {
+      "qid": "722",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2546
+    },
+    {
+      "qid": "723",
+      "question_type": "temporal_query",
+      "pred": "Insufficient evidence.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2582
+    },
+    {
+      "qid": "728",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2423
+    },
+    {
+      "qid": "729",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2313
+    },
+    {
+      "qid": "732",
+      "question_type": "null_query",
+      "pred": "Tim\u016f Sung",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2558
+    },
+    {
+      "qid": "737",
+      "question_type": "temporal_query",
+      "pred": "Yes",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2385
+    },
+    {
+      "qid": "743",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2463
+    },
+    {
+      "qid": "753",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2245
+    },
+    {
+      "qid": "769",
+      "question_type": "inference_query",
+      "pred": "Google.",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2266
+    },
+    {
+      "qid": "774",
+      "question_type": "inference_query",
+      "pred": "Google (Note: Google parent company is Alphabet, but in the context of this question, Google is referred to)\n\n(Alternative answer: Alphabet, but one specific answer in the context is Google)",
+      "gold": "Google",
+      "em": 0.0,
+      "f1": 0.0689655172413793,
+      "tokens": 2310
+    },
+    {
+      "qid": "782",
+      "question_type": "comparison_query",
+      "pred": "No",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2473
+    },
+    {
+      "qid": "786",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2326
+    },
+    {
+      "qid": "789",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2464
+    },
+    {
+      "qid": "792",
+      "question_type": "comparison_query",
+      "pred": "No.",
+      "gold": "no",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2569
+    },
+    {
+      "qid": "799",
+      "question_type": "comparison_query",
+      "pred": "No",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2624
+    },
+    {
+      "qid": "800",
+      "question_type": "comparison_query",
+      "pred": "No.",
+      "gold": "no",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2594
+    },
+    {
+      "qid": "803",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2412
+    },
+    {
+      "qid": "805",
+      "question_type": "comparison_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2346
+    },
+    {
+      "qid": "811",
+      "question_type": "comparison_query",
+      "pred": "No.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2372
+    },
+    {
+      "qid": "819",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2406
+    },
+    {
+      "qid": "821",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2559
+    },
+    {
+      "qid": "831",
+      "question_type": "temporal_query",
+      "pred": "Inconsistent.",
+      "gold": "Consistent",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2359
+    },
+    {
+      "qid": "837",
+      "question_type": "comparison_query",
+      "pred": "Yes",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2360
+    },
+    {
+      "qid": "840",
+      "question_type": "comparison_query",
+      "pred": "Insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2554
+    },
+    {
+      "qid": "844",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2380
+    },
+    {
+      "qid": "854",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2365
+    },
+    {
+      "qid": "855",
+      "question_type": "comparison_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2096
+    },
+    {
+      "qid": "861",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2424
+    },
+    {
+      "qid": "865",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2397
+    },
+    {
+      "qid": "872",
+      "question_type": "comparison_query",
+      "pred": "No.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2644
+    },
+    {
+      "qid": "886",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Similar",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2394
+    },
+    {
+      "qid": "893",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2238
+    },
+    {
+      "qid": "916",
+      "question_type": "comparison_query",
+      "pred": "No.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2466
+    },
+    {
+      "qid": "921",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2494
+    },
+    {
+      "qid": "926",
+      "question_type": "temporal_query",
+      "pred": "No.",
+      "gold": "no",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2381
+    },
+    {
+      "qid": "930",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2246
+    },
+    {
+      "qid": "939",
+      "question_type": "comparison_query",
+      "pred": "USC basketball team",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2380
+    },
+    {
+      "qid": "940",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2351
+    },
+    {
+      "qid": "948",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2523
+    },
+    {
+      "qid": "949",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2640
+    },
+    {
+      "qid": "955",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2273
+    },
+    {
+      "qid": "956",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2336
+    },
+    {
+      "qid": "958",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2379
+    },
+    {
+      "qid": "964",
+      "question_type": "comparison_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2636
+    },
+    {
+      "qid": "966",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "No",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2362
+    },
+    {
+      "qid": "972",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2339
+    },
+    {
+      "qid": "973",
+      "question_type": "null_query",
+      "pred": "A",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2420
+    },
+    {
+      "qid": "982",
+      "question_type": "temporal_query",
+      "pred": "No",
+      "gold": "no",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2334
+    },
+    {
+      "qid": "984",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2241
+    },
+    {
+      "qid": "993",
+      "question_type": "inference_query",
+      "pred": "Google.",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2352
+    },
+    {
+      "qid": "997",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2243
+    },
+    {
+      "qid": "1001",
+      "question_type": "inference_query",
+      "pred": "Sam Altman",
+      "gold": "Sam Altman",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2442
+    },
+    {
+      "qid": "1006",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2436
+    },
+    {
+      "qid": "1013",
+      "question_type": "comparison_query",
+      "pred": "No",
+      "gold": "no",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2353
+    },
+    {
+      "qid": "1026",
+      "question_type": "temporal_query",
+      "pred": "Yes",
+      "gold": "No",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2403
+    },
+    {
+      "qid": "1032",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2409
+    },
+    {
+      "qid": "1034",
+      "question_type": "null_query",
+      "pred": "I couldn't find any information about Suhana or The Times of India or The Hindustan Times articles in the provided context.",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.09999999999999999,
+      "tokens": 2397
+    },
+    {
+      "qid": "1038",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2387
+    },
+    {
+      "qid": "1046",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2320
+    },
+    {
+      "qid": "1048",
+      "question_type": "inference_query",
+      "pred": "Sam Altman",
+      "gold": "Sam Altman",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2308
+    },
+    {
+      "qid": "1049",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2245
+    },
+    {
+      "qid": "1052",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2438
+    },
+    {
+      "qid": "1054",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2253
+    },
+    {
+      "qid": "1057",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2485
+    },
+    {
+      "qid": "1059",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2340
+    },
+    {
+      "qid": "1060",
+      "question_type": "inference_query",
+      "pred": "insufficient evidence",
+      "gold": "Sportsbooks.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2289
+    },
+    {
+      "qid": "1063",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2357
+    },
+    {
+      "qid": "1065",
+      "question_type": "comparison_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2347
+    },
+    {
+      "qid": "1073",
+      "question_type": "temporal_query",
+      "pred": "No.",
+      "gold": "no",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2395
+    },
+    {
+      "qid": "1079",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2458
+    },
+    {
+      "qid": "1088",
+      "question_type": "comparison_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2483
+    },
+    {
+      "qid": "1089",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2296
+    },
+    {
+      "qid": "1090",
+      "question_type": "inference_query",
+      "pred": "ChatGPT.",
+      "gold": "ChatGPT",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2414
+    },
+    {
+      "qid": "1094",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2419
+    },
+    {
+      "qid": "1099",
+      "question_type": "inference_query",
+      "pred": "Amazon",
+      "gold": "Amazon",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2337
+    },
+    {
+      "qid": "1107",
+      "question_type": "inference_query",
+      "pred": "There is not enough information in the provided context to definitively answer the question. However, based on the paragraphs, it can be inferred that Palo Alto Networks is likely to adopt varied pricing models for AI tools and continue investing in security, and may not be immune to global economic challenges due to their recent acquisitions and activity in the market.",
+      "gold": "Companies.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2262
+    },
+    {
+      "qid": "1109",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2385
+    },
+    {
+      "qid": "1110",
+      "question_type": "inference_query",
+      "pred": "Taylor Swift.",
+      "gold": "Taylor Swift",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2378
+    },
+    {
+      "qid": "1113",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2367
+    },
+    {
+      "qid": "1116",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2424
+    },
+    {
+      "qid": "1120",
+      "question_type": "comparison_query",
+      "pred": "Insufficient evidence.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2288
+    },
+    {
+      "qid": "1121",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2285
+    },
+    {
+      "qid": "1132",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2541
+    },
+    {
+      "qid": "1144",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2234
+    },
+    {
+      "qid": "1146",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2353
+    },
+    {
+      "qid": "1147",
+      "question_type": "null_query",
+      "pred": "O. \n\n(Blood Oxygen. O is the first letter of the word \"Oxygen\", which is a vital sign.).",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2470
+    },
+    {
+      "qid": "1150",
+      "question_type": "comparison_query",
+      "pred": "Yes",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2626
+    },
+    {
+      "qid": "1151",
+      "question_type": "null_query",
+      "pred": "Insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2353
+    },
+    {
+      "qid": "1157",
+      "question_type": "comparison_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2477
+    },
+    {
+      "qid": "1158",
+      "question_type": "inference_query",
+      "pred": "The Federal Reserve.",
+      "gold": "Federal Reserve",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2445
+    },
+    {
+      "qid": "1166",
+      "question_type": "inference_query",
+      "pred": "Uber",
+      "gold": "Uber",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2398
+    },
+    {
+      "qid": "1169",
+      "question_type": "comparison_query",
+      "pred": "Insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2607
+    },
+    {
+      "qid": "1173",
+      "question_type": "null_query",
+      "pred": "Insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2332
+    },
+    {
+      "qid": "1182",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2394
+    },
+    {
+      "qid": "1188",
+      "question_type": "temporal_query",
+      "pred": "No",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2462
+    },
+    {
+      "qid": "1189",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2440
+    },
+    {
+      "qid": "1199",
+      "question_type": "null_query",
+      "pred": "Insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2398
+    },
+    {
+      "qid": "1201",
+      "question_type": "comparison_query",
+      "pred": "No",
+      "gold": "no",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2593
+    },
+    {
+      "qid": "1209",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2243
+    },
+    {
+      "qid": "1217",
+      "question_type": "temporal_query",
+      "pred": "Inconsistent",
+      "gold": "Consistent",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2169
+    },
+    {
+      "qid": "1233",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2411
+    },
+    {
+      "qid": "1242",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2254
+    },
+    {
+      "qid": "1247",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2436
+    },
+    {
+      "qid": "1252",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2394
+    },
+    {
+      "qid": "1253",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2587
+    },
+    {
+      "qid": "1255",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2411
+    },
+    {
+      "qid": "1273",
+      "question_type": "temporal_query",
+      "pred": "Inconsistent",
+      "gold": "Consistent",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2315
+    },
+    {
+      "qid": "1287",
+      "question_type": "inference_query",
+      "pred": "49ers",
+      "gold": "Minnesota Vikings",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2571
+    },
+    {
+      "qid": "1296",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "Before",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2343
+    },
+    {
+      "qid": "1305",
+      "question_type": "inference_query",
+      "pred": "YouTube",
+      "gold": "YouTube",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2354
+    },
+    {
+      "qid": "1307",
+      "question_type": "null_query",
+      "pred": "U2",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2360
+    },
+    {
+      "qid": "1312",
+      "question_type": "null_query",
+      "pred": "I can't answer this question. There is no information about Shreyanka Patil playing for a team in the provided context.",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.09999999999999999,
+      "tokens": 2596
+    },
+    {
+      "qid": "1313",
+      "question_type": "inference_query",
+      "pred": "Sam Altman",
+      "gold": "Sam Altman",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2372
+    },
+    {
+      "qid": "1320",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2339
+    },
+    {
+      "qid": "1323",
+      "question_type": "inference_query",
+      "pred": "Caroline Ellison",
+      "gold": "Sam Bankman-Fried",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2401
+    },
+    {
+      "qid": "1325",
+      "question_type": "null_query",
+      "pred": "Insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2550
+    },
+    {
+      "qid": "1333",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2382
+    },
+    {
+      "qid": "1337",
+      "question_type": "inference_query",
+      "pred": "sportsbooks",
+      "gold": "Sportsbooks",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2305
+    },
+    {
+      "qid": "1338",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried (SBF)",
+      "gold": "Sam Bankman-Fried",
+      "em": 0.0,
+      "f1": 0.8,
+      "tokens": 2436
+    },
+    {
+      "qid": "1343",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2280
+    },
+    {
+      "qid": "1349",
+      "question_type": "comparison_query",
+      "pred": "They refer to different stages or versions of the Gemini project.",
+      "gold": "Different stages or versions",
+      "em": 0.0,
+      "f1": 0.5714285714285715,
+      "tokens": 2441
+    },
+    {
+      "qid": "1370",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2374
+    },
+    {
+      "qid": "1373",
+      "question_type": "inference_query",
+      "pred": "Sam Altman.",
+      "gold": "Sam Altman",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2331
+    },
+    {
+      "qid": "1377",
+      "question_type": "comparison_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2191
+    },
+    {
+      "qid": "1383",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2357
+    },
+    {
+      "qid": "1385",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2269
+    },
+    {
+      "qid": "1391",
+      "question_type": "temporal_query",
+      "pred": "Insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2288
+    },
+    {
+      "qid": "1392",
+      "question_type": "inference_query",
+      "pred": "Deebo Samuel",
+      "gold": "Tyreek Hill",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2606
+    },
+    {
+      "qid": "1395",
+      "question_type": "inference_query",
+      "pred": "FanDuel Sportsbook, DraftKings, BetMGM, Bet365, DraftKings, and FanDuel.",
+      "gold": "Sportsbooks",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2514
+    },
+    {
+      "qid": "1400",
+      "question_type": "inference_query",
+      "pred": "Houston Astros",
+      "gold": "Houston Astros",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2388
+    },
+    {
+      "qid": "1402",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2570
+    },
+    {
+      "qid": "1403",
+      "question_type": "temporal_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2563
+    },
+    {
+      "qid": "1412",
+      "question_type": "inference_query",
+      "pred": "Valve",
+      "gold": "Valve",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2403
+    },
+    {
+      "qid": "1419",
+      "question_type": "inference_query",
+      "pred": "Travis Kelce and Taylor Swift.",
+      "gold": "Taylor Swift and Travis Kelce",
+      "em": 0.0,
+      "f1": 1.0,
+      "tokens": 2380
+    },
+    {
+      "qid": "1434",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2416
+    },
+    {
+      "qid": "1440",
+      "question_type": "inference_query",
+      "pred": "Vikings.",
+      "gold": "Minnesota Vikings",
+      "em": 0.0,
+      "f1": 0.6666666666666666,
+      "tokens": 2549
+    },
+    {
+      "qid": "1441",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2241
+    },
+    {
+      "qid": "1454",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2302
+    },
+    {
+      "qid": "1456",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2379
+    },
+    {
+      "qid": "1459",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2610
+    },
+    {
+      "qid": "1462",
+      "question_type": "comparison_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2188
+    },
+    {
+      "qid": "1476",
+      "question_type": "temporal_query",
+      "pred": "No.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2286
+    },
+    {
+      "qid": "1479",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2220
+    },
+    {
+      "qid": "1488",
+      "question_type": "null_query",
+      "pred": "J",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2322
+    },
+    {
+      "qid": "1490",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2407
+    },
+    {
+      "qid": "1503",
+      "question_type": "inference_query",
+      "pred": "TikTok",
+      "gold": "TikTok",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2283
+    },
+    {
+      "qid": "1506",
+      "question_type": "null_query",
+      "pred": "Insufficient evidence.",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2243
+    },
+    {
+      "qid": "1509",
+      "question_type": "comparison_query",
+      "pred": "no",
+      "gold": "no",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2508
+    },
+    {
+      "qid": "1510",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2438
+    },
+    {
+      "qid": "1511",
+      "question_type": "null_query",
+      "pred": "I can\u2019t answer that question because it doesn't fit in the context provided. None of the paragraphs mention the Garmin Venu.",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2502
+    },
+    {
+      "qid": "1514",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2332
+    },
+    {
+      "qid": "1517",
+      "question_type": "temporal_query",
+      "pred": "No.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2386
+    },
+    {
+      "qid": "1524",
+      "question_type": "comparison_query",
+      "pred": "No.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2594
+    },
+    {
+      "qid": "1525",
+      "question_type": "comparison_query",
+      "pred": "No and yes.",
+      "gold": "True",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2508
+    },
+    {
+      "qid": "1526",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2504
+    },
+    {
+      "qid": "1528",
+      "question_type": "temporal_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2411
+    },
+    {
+      "qid": "1532",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2976
+    },
+    {
+      "qid": "1537",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2434
+    },
+    {
+      "qid": "1538",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2417
+    },
+    {
+      "qid": "1551",
+      "question_type": "inference_query",
+      "pred": "Caesars Sportsbook",
+      "gold": "Caesars Sportsbook",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2508
+    },
+    {
+      "qid": "1553",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2290
+    },
+    {
+      "qid": "1559",
+      "question_type": "inference_query",
+      "pred": "Israel.",
+      "gold": "Israel",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2224
+    },
+    {
+      "qid": "1571",
+      "question_type": "null_query",
+      "pred": "I cannot verify the answer as the context only mentions new designs and performance upgrades, not a singular alphabet letter used to denote a model that encompasses both.",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2444
+    },
+    {
+      "qid": "1573",
+      "question_type": "comparison_query",
+      "pred": "No and yes.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2336
+    },
+    {
+      "qid": "1575",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2308
+    },
+    {
+      "qid": "1579",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2293
+    },
+    {
+      "qid": "1591",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "No",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2293
+    },
+    {
+      "qid": "1593",
+      "question_type": "temporal_query",
+      "pred": "talkSPORT",
+      "gold": "TalkSport",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2476
+    },
+    {
+      "qid": "1594",
+      "question_type": "inference_query",
+      "pred": "Google.",
+      "gold": "Apple",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2310
+    },
+    {
+      "qid": "1596",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2292
+    },
+    {
+      "qid": "1597",
+      "question_type": "inference_query",
+      "pred": "Google.",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2354
+    },
+    {
+      "qid": "1601",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2335
+    },
+    {
+      "qid": "1604",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2426
+    },
+    {
+      "qid": "1612",
+      "question_type": "comparison_query",
+      "pred": "Yes for the first question; and Yes for the second.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.2222222222222222,
+      "tokens": 2485
+    },
+    {
+      "qid": "1618",
+      "question_type": "null_query",
+      "pred": "There is insufficient evidence in the provided paragraphs to answer the question.",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.16666666666666669,
+      "tokens": 2422
+    },
+    {
+      "qid": "1624",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2365
+    },
+    {
+      "qid": "1627",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2404
+    },
+    {
+      "qid": "1628",
+      "question_type": "temporal_query",
+      "pred": "No",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2589
+    },
+    {
+      "qid": "1647",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2390
+    },
+    {
+      "qid": "1654",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried (SBF)",
+      "gold": "Sam Bankman-Fried",
+      "em": 0.0,
+      "f1": 0.8,
+      "tokens": 2425
+    },
+    {
+      "qid": "1657",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2390
+    },
+    {
+      "qid": "1659",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2381
+    },
+    {
+      "qid": "1666",
+      "question_type": "inference_query",
+      "pred": "Caroline Ellison",
+      "gold": "Caroline Ellison",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2377
+    },
+    {
+      "qid": "1668",
+      "question_type": "temporal_query",
+      "pred": "Insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2420
+    },
+    {
+      "qid": "1669",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2463
+    },
+    {
+      "qid": "1674",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2287
+    },
+    {
+      "qid": "1676",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2298
+    },
+    {
+      "qid": "1679",
+      "question_type": "comparison_query",
+      "pred": "No",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2320
+    },
+    {
+      "qid": "1689",
+      "question_type": "inference_query",
+      "pred": "Caroline Ellison.",
+      "gold": "Sam Bankman-Fried",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2391
+    },
+    {
+      "qid": "1690",
+      "question_type": "temporal_query",
+      "pred": "Yes",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2402
+    },
+    {
+      "qid": "1698",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2406
+    },
+    {
+      "qid": "1706",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2448
+    },
+    {
+      "qid": "1707",
+      "question_type": "comparison_query",
+      "pred": "No.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2358
+    },
+    {
+      "qid": "1708",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2456
+    },
+    {
+      "qid": "1710",
+      "question_type": "temporal_query",
+      "pred": "Disagree",
+      "gold": "Agree",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2394
+    },
+    {
+      "qid": "1714",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2440
+    },
+    {
+      "qid": "1715",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2429
+    },
+    {
+      "qid": "1720",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2412
+    },
+    {
+      "qid": "1724",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2280
+    },
+    {
+      "qid": "1725",
+      "question_type": "inference_query",
+      "pred": "Apple",
+      "gold": "Apple",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2311
+    },
+    {
+      "qid": "1727",
+      "question_type": "temporal_query",
+      "pred": "Yes.",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2249
+    },
+    {
+      "qid": "1736",
+      "question_type": "inference_query",
+      "pred": "Manchester United",
+      "gold": "Manchester United",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2379
+    },
+    {
+      "qid": "1737",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2384
+    },
+    {
+      "qid": "1740",
+      "question_type": "inference_query",
+      "pred": "TikTok.",
+      "gold": "YouTube",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2397
+    },
+    {
+      "qid": "1749",
+      "question_type": "temporal_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2457
+    },
+    {
+      "qid": "1755",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2421
+    },
+    {
+      "qid": "1761",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2462
+    },
+    {
+      "qid": "1762",
+      "question_type": "comparison_query",
+      "pred": "Insufficient evidence.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2384
+    },
+    {
+      "qid": "1763",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2358
+    },
+    {
+      "qid": "1772",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2227
+    },
+    {
+      "qid": "1773",
+      "question_type": "null_query",
+      "pred": "Insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2400
+    },
+    {
+      "qid": "1782",
+      "question_type": "temporal_query",
+      "pred": "No",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2386
+    },
+    {
+      "qid": "1789",
+      "question_type": "temporal_query",
+      "pred": "No.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2440
+    },
+    {
+      "qid": "1791",
+      "question_type": "temporal_query",
+      "pred": "No",
+      "gold": "no",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2789
+    },
+    {
+      "qid": "1796",
+      "question_type": "null_query",
+      "pred": "Derrick Johnson",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2257
+    },
+    {
+      "qid": "1802",
+      "question_type": "comparison_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2216
+    },
+    {
+      "qid": "1810",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "Change",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2452
+    },
+    {
+      "qid": "1813",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2392
+    },
+    {
+      "qid": "1814",
+      "question_type": "inference_query",
+      "pred": "Apple",
+      "gold": "Apple",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2293
+    },
+    {
+      "qid": "1834",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2423
+    },
+    {
+      "qid": "1841",
+      "question_type": "temporal_query",
+      "pred": "Inconsistent.",
+      "gold": "Consistent",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2312
+    },
+    {
+      "qid": "1842",
+      "question_type": "comparison_query",
+      "pred": "Yes",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2277
+    },
+    {
+      "qid": "1846",
+      "question_type": "comparison_query",
+      "pred": "No",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2218
+    },
+    {
+      "qid": "1854",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2410
+    },
+    {
+      "qid": "1856",
+      "question_type": "inference_query",
+      "pred": "OpenAI",
+      "gold": "OpenAI",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2391
+    },
+    {
+      "qid": "1874",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2611
+    },
+    {
+      "qid": "1880",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2416
+    },
+    {
+      "qid": "1886",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2285
+    },
+    {
+      "qid": "1889",
+      "question_type": "comparison_query",
+      "pred": "No",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2494
+    },
+    {
+      "qid": "1892",
+      "question_type": "inference_query",
+      "pred": "Britney Spears",
+      "gold": "Britney Spears",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2411
+    },
+    {
+      "qid": "1896",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2333
+    },
+    {
+      "qid": "1900",
+      "question_type": "comparison_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2309
+    },
+    {
+      "qid": "1910",
+      "question_type": "temporal_query",
+      "pred": "Inconsistent portrayal of Google's business practices.",
+      "gold": "Consistent",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2329
+    },
+    {
+      "qid": "1919",
+      "question_type": "null_query",
+      "pred": "T",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2403
+    },
+    {
+      "qid": "1922",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2260
+    },
+    {
+      "qid": "1924",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2542
+    },
+    {
+      "qid": "1925",
+      "question_type": "comparison_query",
+      "pred": "Both.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2390
+    },
+    {
+      "qid": "1950",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2344
+    },
+    {
+      "qid": "1954",
+      "question_type": "null_query",
+      "pred": "Insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2198
+    },
+    {
+      "qid": "1957",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2373
+    },
+    {
+      "qid": "1960",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2657
+    },
+    {
+      "qid": "1963",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2428
+    },
+    {
+      "qid": "1964",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "True",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2341
+    },
+    {
+      "qid": "1965",
+      "question_type": "comparison_query",
+      "pred": "No.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2425
+    },
+    {
+      "qid": "1969",
+      "question_type": "temporal_query",
+      "pred": "Yes. \n\n'youth movement' in the first report, vs 'lamp down the attack' in the second report is not verified, the change in focus is: from 'lamp down the attack' to 'ushering in a youth movement up front'",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0625,
+      "tokens": 2706
+    },
+    {
+      "qid": "1973",
+      "question_type": "temporal_query",
+      "pred": "$1,000",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2654
+    },
+    {
+      "qid": "1974",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2297
+    },
+    {
+      "qid": "1977",
+      "question_type": "inference_query",
+      "pred": "Sam Altman",
+      "gold": "Sam Altman",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2296
+    },
+    {
+      "qid": "1978",
+      "question_type": "comparison_query",
+      "pred": "Neither article does.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2447
+    },
+    {
+      "qid": "1981",
+      "question_type": "temporal_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2440
+    },
+    {
+      "qid": "1982",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2302
+    },
+    {
+      "qid": "1995",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2189
+    },
+    {
+      "qid": "1996",
+      "question_type": "temporal_query",
+      "pred": "From romantically incompatible to reportedly going on dates or 'quietly hanging out', then to confirmed couple.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2407
+    },
+    {
+      "qid": "2011",
+      "question_type": "temporal_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2385
+    },
+    {
+      "qid": "2016",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence.",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2463
+    },
+    {
+      "qid": "2022",
+      "question_type": "comparison_query",
+      "pred": "No, it does not suggest that Portfolio Management Services (PMS) and mutual funds provide expert guidance for wealth creation.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2383
+    },
+    {
+      "qid": "2026",
+      "question_type": "null_query",
+      "pred": "Insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2189
+    },
+    {
+      "qid": "2034",
+      "question_type": "temporal_query",
+      "pred": "No.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2408
+    },
+    {
+      "qid": "2035",
+      "question_type": "comparison_query",
+      "pred": "Both articles imply misconduct on the part of Sam Bankman-Fried.",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2388
+    },
+    {
+      "qid": "2036",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2561
+    },
+    {
+      "qid": "2042",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "No",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2459
+    },
+    {
+      "qid": "2045",
+      "question_type": "inference_query",
+      "pred": "New Zealand",
+      "gold": "All Blacks",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2436
+    },
+    {
+      "qid": "2047",
+      "question_type": "comparison_query",
+      "pred": "No.",
+      "gold": "no",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2420
+    },
+    {
+      "qid": "2054",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2330
+    },
+    {
+      "qid": "2064",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2225
+    },
+    {
+      "qid": "2065",
+      "question_type": "temporal_query",
+      "pred": "Yes.",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2180
+    },
+    {
+      "qid": "2068",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2291
+    },
+    {
+      "qid": "2089",
+      "question_type": "temporal_query",
+      "pred": "No.",
+      "gold": "no",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2343
+    },
+    {
+      "qid": "2098",
+      "question_type": "temporal_query",
+      "pred": "Inconsistent\n\nAccording to 'The Guardian', Brandon Pfaadt was the probable starter for the Diamondbacks in Game 3.",
+      "gold": "Inconsistent",
+      "em": 0.0,
+      "f1": 0.13333333333333333,
+      "tokens": 2644
+    },
+    {
+      "qid": "2102",
+      "question_type": "temporal_query",
+      "pred": "Inconsistent.",
+      "gold": "Consistent",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2382
+    },
+    {
+      "qid": "2106",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2283
+    },
+    {
+      "qid": "2107",
+      "question_type": "comparison_query",
+      "pred": "Yes",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2362
+    },
+    {
+      "qid": "2111",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2279
+    },
+    {
+      "qid": "2114",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2639
+    },
+    {
+      "qid": "2122",
+      "question_type": "inference_query",
+      "pred": "Helena World Chronicle",
+      "gold": "Google",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2242
+    },
+    {
+      "qid": "2123",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "Consistent",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2465
+    },
+    {
+      "qid": "2125",
+      "question_type": "inference_query",
+      "pred": "Valve",
+      "gold": "Valve",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2329
+    },
+    {
+      "qid": "2127",
+      "question_type": "null_query",
+      "pred": "S",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2331
+    },
+    {
+      "qid": "2132",
+      "question_type": "inference_query",
+      "pred": "Alameda Research",
+      "gold": "Alameda Research",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2421
+    },
+    {
+      "qid": "2133",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2380
+    },
+    {
+      "qid": "2135",
+      "question_type": "inference_query",
+      "pred": "Sam Altman",
+      "gold": "Sam Altman",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2388
+    },
+    {
+      "qid": "2143",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2426
+    },
+    {
+      "qid": "2145",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2290
+    },
+    {
+      "qid": "2158",
+      "question_type": "comparison_query",
+      "pred": "Yes",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2539
+    },
+    {
+      "qid": "2159",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2265
+    },
+    {
+      "qid": "2170",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2378
+    },
+    {
+      "qid": "2178",
+      "question_type": "temporal_query",
+      "pred": "No.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2253
+    },
+    {
+      "qid": "2190",
+      "question_type": "inference_query",
+      "pred": "Meta",
+      "gold": "Meta",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2208
+    },
+    {
+      "qid": "2191",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2365
+    },
+    {
+      "qid": "2193",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2444
+    },
+    {
+      "qid": "2195",
+      "question_type": "inference_query",
+      "pred": "Sam Altman",
+      "gold": "Sam Altman",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2361
+    },
+    {
+      "qid": "2203",
+      "question_type": "null_query",
+      "pred": "Insufficient evidence.",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2426
+    },
+    {
+      "qid": "2205",
+      "question_type": "comparison_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2385
+    },
+    {
+      "qid": "2210",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2453
+    },
+    {
+      "qid": "2212",
+      "question_type": "temporal_query",
+      "pred": "Yes",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2398
+    },
+    {
+      "qid": "2213",
+      "question_type": "temporal_query",
+      "pred": "No.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2314
+    },
+    {
+      "qid": "2217",
+      "question_type": "inference_query",
+      "pred": "Manchester United",
+      "gold": "Manchester United",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2461
+    },
+    {
+      "qid": "2223",
+      "question_type": "comparison_query",
+      "pred": "No, insufficient evidence. \n\nYes, there is hope.",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.25,
+      "tokens": 2500
+    },
+    {
+      "qid": "2226",
+      "question_type": "temporal_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2399
+    },
+    {
+      "qid": "2245",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2226
+    },
+    {
+      "qid": "2255",
+      "question_type": "null_query",
+      "pred": "I can't answer that question as it's based on specific context from The New York Times and The Washington Post, which is not provided here.",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2386
+    },
+    {
+      "qid": "2258",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2303
+    },
+    {
+      "qid": "2260",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2425
+    },
+    {
+      "qid": "2275",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2434
+    },
+    {
+      "qid": "2277",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2365
+    },
+    {
+      "qid": "2302",
+      "question_type": "inference_query",
+      "pred": "Sam Altman.",
+      "gold": "Sam Altman",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2377
+    },
+    {
+      "qid": "2304",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2362
+    },
+    {
+      "qid": "2311",
+      "question_type": "comparison_query",
+      "pred": "No.",
+      "gold": "no",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2498
+    },
+    {
+      "qid": "2314",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2371
+    },
+    {
+      "qid": "2316",
+      "question_type": "inference_query",
+      "pred": "Diablo 4",
+      "gold": "Diablo 4",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2441
+    },
+    {
+      "qid": "2324",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2385
+    },
+    {
+      "qid": "2325",
+      "question_type": "null_query",
+      "pred": "Insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2228
+    },
+    {
+      "qid": "2326",
+      "question_type": "inference_query",
+      "pred": "Sam Altman",
+      "gold": "Sam Altman",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2377
+    },
+    {
+      "qid": "2328",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2337
+    },
+    {
+      "qid": "2336",
+      "question_type": "inference_query",
+      "pred": "Google",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2278
+    },
+    {
+      "qid": "2348",
+      "question_type": "comparison_query",
+      "pred": "No, the article does not imply that Michigan's football team could easily shrug off a single defeat without any impact on their season. The article actually mentions that even if Michigan beats Ohio State, their story is far from over, and they will continue to face obstacles as they march towards the Big Ten championship game and the College Football Playoff.\n\nNo, the article does not describe Zach Wilson's turnover as an insignificant factor in the game's outcome, but rather, it implies it contributed to the final result of the Jets' loss.",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.024096385542168676,
+      "tokens": 2580
+    },
+    {
+      "qid": "2356",
+      "question_type": "inference_query",
+      "pred": "Taylor Swift.",
+      "gold": "Taylor Swift",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2362
+    },
+    {
+      "qid": "2360",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2205
+    },
+    {
+      "qid": "2361",
+      "question_type": "null_query",
+      "pred": "Insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2460
+    },
+    {
+      "qid": "2362",
+      "question_type": "temporal_query",
+      "pred": "Insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2452
+    },
+    {
+      "qid": "2365",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2440
+    },
+    {
+      "qid": "2373",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2398
+    },
+    {
+      "qid": "2374",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2380
+    },
+    {
+      "qid": "2375",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2192
+    },
+    {
+      "qid": "2376",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2525
+    },
+    {
+      "qid": "2378",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence.",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2411
+    },
+    {
+      "qid": "2381",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2381
+    },
+    {
+      "qid": "2383",
+      "question_type": "temporal_query",
+      "pred": "No",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2290
+    },
+    {
+      "qid": "2386",
+      "question_type": "null_query",
+      "pred": "As there is no mention of a partnership for a cause by Pamela Anderson in the provided context, I will say: insufficient evidence.",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.09090909090909091,
+      "tokens": 2397
+    },
+    {
+      "qid": "2387",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2497
+    },
+    {
+      "qid": "2391",
+      "question_type": "inference_query",
+      "pred": "Vikings",
+      "gold": "Minnesota Vikings",
+      "em": 0.0,
+      "f1": 0.6666666666666666,
+      "tokens": 2537
+    },
+    {
+      "qid": "2395",
+      "question_type": "inference_query",
+      "pred": "Taylor Swift.",
+      "gold": "Taylor Swift",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2394
+    },
+    {
+      "qid": "2408",
+      "question_type": "comparison_query",
+      "pred": "Insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2595
+    },
+    {
+      "qid": "2412",
+      "question_type": "inference_query",
+      "pred": "Sam Altman.",
+      "gold": "Sam Altman",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2352
+    },
+    {
+      "qid": "2419",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2415
+    },
+    {
+      "qid": "2421",
+      "question_type": "inference_query",
+      "pred": "Google.",
+      "gold": "Google",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2303
+    },
+    {
+      "qid": "2427",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2440
+    },
+    {
+      "qid": "2431",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "Consistent",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2457
+    },
+    {
+      "qid": "2433",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2339
+    },
+    {
+      "qid": "2436",
+      "question_type": "null_query",
+      "pred": "insufficient evidence.",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2379
+    },
+    {
+      "qid": "2438",
+      "question_type": "temporal_query",
+      "pred": "No.",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2406
+    },
+    {
+      "qid": "2439",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2385
+    },
+    {
+      "qid": "2450",
+      "question_type": "null_query",
+      "pred": "insufficient evidence",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2293
+    },
+    {
+      "qid": "2457",
+      "question_type": "null_query",
+      "pred": "I.",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2203
+    },
+    {
+      "qid": "2468",
+      "question_type": "comparison_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2603
+    },
+    {
+      "qid": "2475",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2392
+    },
+    {
+      "qid": "2484",
+      "question_type": "comparison_query",
+      "pred": "No.",
+      "gold": "no",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2602
+    },
+    {
+      "qid": "2490",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2300
+    },
+    {
+      "qid": "2491",
+      "question_type": "temporal_query",
+      "pred": "insufficient evidence",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2265
+    },
+    {
+      "qid": "2495",
+      "question_type": "inference_query",
+      "pred": "insufficient evidence",
+      "gold": "Sam Altman",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2396
+    },
+    {
+      "qid": "2499",
+      "question_type": "temporal_query",
+      "pred": "No.",
+      "gold": "no",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2417
+    },
+    {
+      "qid": "2504",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2406
+    },
+    {
+      "qid": "2508",
+      "question_type": "comparison_query",
+      "pred": "Yes. \n\nIt is stated in article 1 : \"Betting lines and odds are then subject to change based on the betting public\u2019s reaction and any additional information that comes to light ahead of the game.\"\n\nAnd it is also stated in article 1 : \"Sportsbooks will move the line or change the odds if the public bets heavily on one side.\"",
+      "gold": "Yes",
+      "em": 0.0,
+      "f1": 0.03636363636363636,
+      "tokens": 2372
+    },
+    {
+      "qid": "2527",
+      "question_type": "null_query",
+      "pred": "Insufficient evidence.",
+      "gold": "Insufficient information.",
+      "em": 0.0,
+      "f1": 0.5,
+      "tokens": 2429
+    },
+    {
+      "qid": "2531",
+      "question_type": "comparison_query",
+      "pred": "Yes.",
+      "gold": "Yes",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2424
+    },
+    {
+      "qid": "2534",
+      "question_type": "temporal_query",
+      "pred": "Insufficient evidence.",
+      "gold": "no",
+      "em": 0.0,
+      "f1": 0.0,
+      "tokens": 2455
+    },
+    {
+      "qid": "2549",
+      "question_type": "inference_query",
+      "pred": "Sam Bankman-Fried.",
+      "gold": "Sam Bankman-Fried",
+      "em": 1.0,
+      "f1": 1.0,
+      "tokens": 2394
+    }
+  ]
+}

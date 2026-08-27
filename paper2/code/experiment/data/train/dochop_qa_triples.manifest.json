@@ -1,0 +1,12 @@
+{
+  "n_train_triples": 10879,
+  "n_eval_excluded": 500,
+  "n_skipped_no_gold": 0,
+  "total_records": 11379,
+  "unique_papers": 9250,
+  "unique_sections": 23158,
+  "hard_neg_k": 10,
+  "random_neg_k": 5,
+  "jaccard_threshold": 0.05,
+  "seed": 42
+}
