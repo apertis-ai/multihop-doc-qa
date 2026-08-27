@@ -5,6 +5,7 @@
   "retrieval_metric_scope": "historical all-query metrics; empty-gold rows score 0",
   "doc_metric_definition": "historical first-k paragraph hits mapped to documents before deduplication",
   "doc_metric_correction": "doc_metric_correction.json",
+  "doc_metric_correction_scope": "lower and upper bounds from the retained top-10 paragraph ranking; not exact unique-document R@5 when fewer than five unique documents were retained",
   "n_answerable_retrieval": 429,
   "n_empty_gold_retrieval": 71,
   "n_null_queries": 71,

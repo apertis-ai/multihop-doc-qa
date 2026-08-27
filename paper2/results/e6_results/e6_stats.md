@@ -11,7 +11,7 @@ n_common_qids = 500; bonferroni α = 0.0056 (9 tests)
 | jina_v3 | 0.2837 | 0.3898 | 0.5500 | 0.4402 | 0.3540 | 0.4050 |
 | qwen3_emb_4b | 0.4073 | 0.5310 | 0.6940 | 0.5375 | 0.3800 | 0.4444 |
 
-The table above is the historical all-query output: 71 empty-gold `null_query` rows score 0, and `doc_r@5` was computed from the first five paragraph hits before document deduplication. The retained STALI retrieval corrects to 0.5982 document R@5 over all 500 queries and 0.6972 over the 429 answerable queries; see `doc_metric_correction.json`. Baseline retrieval files were not retained, so their corrected document metrics are unavailable.
+The table above is the historical all-query output: 71 empty-gold `null_query` rows score 0, and `doc_r@5` was computed from the first five paragraph hits before document deduplication. Only ten paragraph hits were retained, leaving fewer than five unique documents for 117 queries. The available STALI ranking therefore bounds document R@5 at 0.5982–0.6335 over all 500 queries and 0.6972–0.7383 over the 429 answerable queries; see `doc_metric_correction.json`. Baseline retrieval files were not retained, so their document-metric bounds are unavailable.
 
 ## STALI vs baselines (paired bootstrap 10k, Bonferroni)
 

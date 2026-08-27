@@ -51,12 +51,15 @@
   "summary_scope": "historical all-query metrics; empty-gold rows score 0 and doc_r5 uses paragraph ranks before document deduplication",
   "doc_metric_correction": {
     "file": "doc_metric_correction.json",
-    "stali_all_queries_doc_r5": 0.5981666666666666,
-    "stali_answerable_queries_doc_r5": 0.6971639471639471,
+    "stali_all_queries_doc_r5_lower_bound": 0.5981666666666666,
+    "stali_all_queries_doc_r5_upper_bound": 0.6335,
+    "stali_answerable_queries_doc_r5_lower_bound": 0.6971639471639471,
+    "stali_answerable_queries_doc_r5_upper_bound": 0.7383449883449883,
     "n_answerable": 429,
     "n_empty_gold": 71,
-    "n_changed": 83,
-    "baseline_status": "The three baseline retrieval files were not retained; their unique-document corrections cannot be reconstructed from aggregate summaries."
+    "n_insufficient_unique_doc_depth": 117,
+    "n_interval_doc_r5": 42,
+    "baseline_status": "The three baseline retrieval files were not retained; no unique-document bounds can be reconstructed from aggregate summaries."
   },
   "comparisons": [
     {

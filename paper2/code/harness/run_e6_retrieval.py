@@ -55,6 +55,36 @@ def _load_data(corpus_p: Path, queries_p: Path, heldout_p: Path):
     return chunks, heldout
 
 
+def _retain_metric_depth(ranked_idx, chunks, paragraph_k, document_k=5):
+    """Retain at least paragraph_k hits and document_k unique documents."""
+    selected = []
+    for query_idx, ranking in enumerate(ranked_idx):
+        kept, seen_docs = [], set()
+        for chunk_idx in ranking:
+            kept.append(chunk_idx)
+            seen_docs.add(chunks[chunk_idx].doc_id)
+            if len(kept) >= paragraph_k and len(seen_docs) >= document_k:
+                break
+        if len(kept) < paragraph_k or len(seen_docs) < document_k:
+            raise ValueError(
+                f"query {query_idx} has only {len(kept)} paragraphs and "
+                f"{len(seen_docs)} unique documents in the corpus"
+            )
+        selected.append(kept)
+    return selected
+
+
+def _rank_for_metrics(scores, chunks, paragraph_k):
+    scores_cpu = scores.detach().float().cpu()
+    ranked_idx = scores_cpu.argsort(dim=1, descending=True).tolist()
+    top_idx = _retain_metric_depth(ranked_idx, chunks, paragraph_k)
+    top_scores = [
+        [float(scores_cpu[query_idx, chunk_idx].item()) for chunk_idx in indices]
+        for query_idx, indices in enumerate(top_idx)
+    ]
+    return top_idx, top_scores
+
+
 # ── Dense bi-encoder retrievers ─────────────────────────────────────────────
 
 def _dense_retrieve(
@@ -99,9 +129,7 @@ def _dense_retrieve(
 
     print(f"[dense] scoring {len(qtexts)}x{len(docs)} ...", flush=True)
     sims = q_emb @ d_emb.T  # (Q, D)
-    top_scores, top_idx = sims.topk(min(top_k, sims.size(1)), dim=1)
-    top_scores = top_scores.cpu().tolist()
-    top_idx = top_idx.cpu().tolist()
+    top_idx, top_scores = _rank_for_metrics(sims, chunks, top_k)
     return _format_results(queries, chunks, top_idx, top_scores)
 
 
@@ -196,8 +224,8 @@ def _stali_retrieve(
         # MaxSim: max over doc tokens, sum over query tokens.
         sims[:, ds:de] = scores.max(dim=-1).values.sum(dim=-1)
 
-    top_scores, top_idx = sims.topk(min(top_k, sims.size(1)), dim=1)
-    return _format_results(queries, chunks, top_idx.cpu().tolist(), top_scores.cpu().tolist())
+    top_idx, top_scores = _rank_for_metrics(sims, chunks, top_k)
+    return _format_results(queries, chunks, top_idx, top_scores)
 
 
 # ── main ────────────────────────────────────────────────────────────────────
@@ -246,6 +274,8 @@ def main() -> None:
     ap.add_argument("--out", required=True, type=Path)
     ap.add_argument("--top-k", type=int, default=10)
     args = ap.parse_args()
+    if args.top_k < 10:
+        ap.error("--top-k must be at least 10 for the released paragraph metrics")
 
     cfg = RETRIEVER_REGISTRY[args.retriever]
     chunks, queries = _load_data(args.corpus, args.queries, args.heldout)
@@ -280,6 +310,8 @@ def main() -> None:
         "retriever_config": {k: v for k, v in cfg.items() if isinstance(v, (str, int, float, bool))},
         "n_corpus": len(chunks),
         "n_queries": len(queries),
+        "paragraph_top_k": args.top_k,
+        "minimum_unique_documents": 5,
         "queries": results,
     }, indent=2))
     print(f"[done] wrote {args.out}", flush=True)

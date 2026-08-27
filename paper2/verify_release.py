@@ -118,7 +118,7 @@ def verify_scanner_patterns() -> None:
 def verify_correction_logic() -> None:
     def load(relative: str) -> dict:
         path = ROOT / relative
-        namespace = {"__name__": "release_check"}
+        namespace = {"__name__": "release_check", "__file__": str(path)}
         exec(compile(path.read_text(), str(path), "exec"), namespace)
         return namespace
 
@@ -154,10 +154,24 @@ def verify_correction_logic() -> None:
     if stats["metrics_hipporag"](["doc1", "doc1", "doc2"], ["doc1", "doc2"], 2) != (1.0, 1.0):
         raise SystemExit("HippoRAG unique-document metric self-check failed")
 
+    retrieval = load("code/harness/run_e6_retrieval.py")
+    chunks = [type("Chunk", (), {"doc_id": doc_id})() for doc_id in "aabbcde"]
+    selected = retrieval["_retain_metric_depth"]([list(range(7))], chunks, paragraph_k=3)
+    if selected != [list(range(7))]:
+        raise SystemExit("E6 retrieval depth self-check failed")
+    try:
+        retrieval["_retain_metric_depth"]([[0, 1]], chunks, paragraph_k=3)
+    except ValueError:
+        pass
+    else:
+        raise SystemExit("E6 retrieval depth guard self-check failed")
+
 
 def verify_e6_correction() -> None:
     correction = json.loads((ROOT / "results/e6_results/doc_metric_correction.json").read_text())
     evaluation = json.loads((ROOT / "results/e6_results/eval.json").read_text())
+    retrieval = json.loads((ROOT / "results/e6_results/retrieval.json").read_text())
+    stats = json.loads((ROOT / "results/e6_results/e6_stats.json").read_text())
     rows = correction["rows"]
     counts = correction["counts"]
     if counts != {
@@ -165,21 +179,70 @@ def verify_e6_correction() -> None:
         "n_answerable": 429,
         "n_empty_gold": 71,
         "n_null_queries": 71,
-        "n_changed_doc_r5": 83,
-        "n_changed_doc_hit5": 9,
+        "n_insufficient_unique_doc_depth": 117,
+        "n_answerable_insufficient_unique_doc_depth": 109,
+        "n_interval_doc_r5": 42,
+        "n_interval_doc_hit5": 1,
+        "n_changed_doc_r5_lower_vs_legacy": 83,
+        "n_changed_doc_hit5_lower_vs_legacy": 9,
     }:
         raise SystemExit("unexpected E6 correction counts")
-    if [row["qid"] for row in rows] != [str(row["qid"]) for row in evaluation["rows"]]:
+    qids = [row["qid"] for row in rows]
+    if qids != [str(row["qid"]) for row in evaluation["rows"]] or qids != [
+        str(query["qid"]) for query in retrieval["queries"]
+    ]:
         raise SystemExit("E6 correction query order mismatch")
-    if any(
-        old["doc_r5"] != new["legacy_doc_r5_chunk_first"]
-        or old["doc_hit5"] != new["legacy_doc_hit5_chunk_first"]
-        for old, new in zip(evaluation["rows"], rows)
+    if {len(query["results"]) for query in retrieval["queries"]} != {10}:
+        raise SystemExit("unexpected retained E6 paragraph depth")
+
+    for old, query, row in zip(evaluation["rows"], retrieval["queries"], rows):
+        ranked_docs = list(dict.fromkeys(
+            hit["chunk_id"].split("||", 1)[0] for hit in query["results"]
+        ))
+        observed = ranked_docs[:5]
+        gold = set(query["gold_doc_ids"])
+        hits = len(gold.intersection(observed))
+        missing_slots = max(0, 5 - len(observed))
+        lower = hits / max(len(gold), 1)
+        upper = (hits + min(missing_slots, max(0, len(gold) - hits))) / max(len(gold), 1)
+        hit_lower = float(bool(hits))
+        hit_upper = float(bool(hits) or (bool(gold) and missing_slots > 0))
+        expected = {
+            "n_unique_docs_in_retained_top10": len(ranked_docs),
+            "legacy_doc_r5_chunk_first": old["doc_r5"],
+            "retained_top10_doc_r5_lower_bound": lower,
+            "retained_top10_doc_r5_upper_bound": upper,
+            "doc_r5_exact_from_retained_depth": lower == upper,
+            "legacy_doc_hit5_chunk_first": old["doc_hit5"],
+            "retained_top10_doc_hit5_lower_bound": hit_lower,
+            "retained_top10_doc_hit5_upper_bound": hit_upper,
+            "doc_hit5_exact_from_retained_depth": hit_lower == hit_upper,
+        }
+        if any(row[key] != value for key, value in expected.items()):
+            raise SystemExit(f"invalid E6 document-metric bounds for qid {row['qid']}")
+
+    all_summary = correction["summary_all_queries"]
+    answerable_summary = correction["summary_answerable_queries"]
+    answerable = [row for row in rows if row["has_retrieval_gold"]]
+    for key in (
+        "retained_top10_doc_r5_lower_bound",
+        "retained_top10_doc_r5_upper_bound",
+        "retained_top10_doc_hit5_lower_bound",
+        "retained_top10_doc_hit5_upper_bound",
     ):
-        raise SystemExit("E6 correction does not match legacy metrics")
-    corrected = sum(row["corrected_doc_r5_unique_docs"] for row in rows) / len(rows)
-    if abs(corrected - 0.5981666666666666) > 1e-12:
-        raise SystemExit("unexpected corrected E6 document R@5")
+        if all_summary[key] != sum(row[key] for row in rows) / len(rows):
+            raise SystemExit(f"invalid all-query E6 bound: {key}")
+        if answerable_summary[key] != sum(row[key] for row in answerable) / len(answerable):
+            raise SystemExit(f"invalid answerable E6 bound: {key}")
+
+    metadata = stats["doc_metric_correction"]
+    if (
+        metadata["stali_all_queries_doc_r5_lower_bound"] != 0.5981666666666666
+        or metadata["stali_all_queries_doc_r5_upper_bound"] != 0.6335
+        or metadata["stali_answerable_queries_doc_r5_lower_bound"] != 0.6971639471639471
+        or metadata["stali_answerable_queries_doc_r5_upper_bound"] != 0.7383449883449883
+    ):
+        raise SystemExit("E6 stats do not match document-metric bounds")
 
 
 def main() -> None:

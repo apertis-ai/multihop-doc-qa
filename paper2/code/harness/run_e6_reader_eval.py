@@ -59,6 +59,11 @@ def main() -> None:
         top_doc_ids = list(dict.fromkeys(
             chunks_by_id[cid].doc_id for cid in top_ids if cid in chunks_by_id
         ))
+        if gold_docs and len(top_doc_ids) < 5:
+            raise ValueError(
+                f"qid {q['qid']} has only {len(top_doc_ids)} unique retrieved documents; "
+                "rerun retrieval with the released depth-preserving driver"
+            )
 
         para_r5 = metrics.recall_at_k(top_ids, gold_paras, 5)
         para_r10 = metrics.recall_at_k(top_ids, gold_paras, 10)
